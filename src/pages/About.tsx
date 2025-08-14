@@ -163,10 +163,10 @@ const About = () => {
                   <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                     <Users className="w-12 h-12 text-primary" />
                   </div>
-                  <h3 className="text-lg font-semibold mb-2">Sarah Mitchell</h3>
+                  <h3 className="text-lg font-semibold mb-2">Cristian Lantadilla</h3>
                   <p className="text-sm text-primary mb-2">CEO & Co-Founder</p>
                   <p className="text-sm text-muted-foreground">
-                    Former VP of HR at Fortune 500 companies with 15+ years of experience 
+                    Blockchain and  with 15+ years of experience 
                     in talent management and organizational development.
                   </p>
                 </div>
