@@ -166,65 +166,26 @@ const About = () => {
                   <h3 className="text-lg font-semibold mb-2">Cristian Lantadilla</h3>
                   <p className="text-sm text-primary mb-2">CEO & Co-Founder</p>
                   <p className="text-sm text-muted-foreground">
-                    Blockchain and  with 15+ years of experience 
-                    in talent management and organizational development.
+                    Visionary leader with 10 years of blockchain and AI experience. Former blockchain architect 
+                    at leading fintech companies, specializing in decentralized systems and AI integration.
                   </p>
                 </div>
 
                 <div className="text-center">
                   <div className="w-24 h-24 rounded-full bg-secondary/10 flex items-center justify-center mx-auto mb-4">
-                    <Bot className="w-12 h-12 text-secondary" />
+                    <Users className="w-12 h-12 text-secondary" />
                   </div>
-                  <h3 className="text-lg font-semibold mb-2">Dr. Alex Chen</h3>
-                  <p className="text-sm text-secondary mb-2">CTO & Co-Founder</p>
+                  <h3 className="text-lg font-semibold mb-2">Renato Ortega</h3>
+                  <p className="text-sm text-secondary mb-2">Co-Founder & HR Specialist</p>
                   <p className="text-sm text-muted-foreground">
-                    AI researcher and former Google engineer specializing in natural language 
-                    processing and machine learning applications.
+                    HR expert with over 8 years in talent acquisition and employee development. 
+                    Former HR director at Fortune 500 companies, passionate about transforming workplace experiences.
                   </p>
                 </div>
 
-                <div className="text-center">
-                  <div className="w-24 h-24 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-4">
-                    <Shield className="w-12 h-12 text-accent" />
-                  </div>
-                  <h3 className="text-lg font-semibold mb-2">Marcus Rodriguez</h3>
-                  <p className="text-sm text-accent mb-2">Head of Blockchain</p>
-                  <p className="text-sm text-muted-foreground">
-                    Blockchain architect with expertise in smart contracts and decentralized 
-                    systems, formerly at leading DeFi protocols.
-                  </p>
-                </div>
               </div>
             </CardContent>
           </Card>
-
-          {/* Company Stats */}
-          <div className="grid md:grid-cols-4 gap-6 mb-16">
-            <Card className="text-center">
-              <CardContent className="pt-6">
-                <div className="text-3xl font-bold text-primary mb-2">500+</div>
-                <p className="text-sm text-muted-foreground">Companies Served</p>
-              </CardContent>
-            </Card>
-            <Card className="text-center">
-              <CardContent className="pt-6">
-                <div className="text-3xl font-bold text-secondary mb-2">50K+</div>
-                <p className="text-sm text-muted-foreground">Employees Onboarded</p>
-              </CardContent>
-            </Card>
-            <Card className="text-center">
-              <CardContent className="pt-6">
-                <div className="text-3xl font-bold text-accent mb-2">98%</div>
-                <p className="text-sm text-muted-foreground">Customer Satisfaction</p>
-              </CardContent>
-            </Card>
-            <Card className="text-center">
-              <CardContent className="pt-6">
-                <div className="text-3xl font-bold text-primary mb-2">24/7</div>
-                <p className="text-sm text-muted-foreground">AI Support</p>
-              </CardContent>
-            </Card>
-          </div>
 
           {/* CTA Section */}
           <Card className="bg-gradient-to-r from-primary/10 to-secondary/10 border-primary/20">

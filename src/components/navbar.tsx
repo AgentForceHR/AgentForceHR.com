@@ -24,6 +24,9 @@ export function Navbar() {
             </div>
           </Link>
           <nav className="hidden md:flex gap-6">
+            <Link to="/features" className="text-sm font-medium hover:text-primary transition-colors">
+              Features
+            </Link>
             <Link to="/#hr-token" className="text-sm font-medium hover:text-primary transition-colors">
               HR Token
             </Link>
