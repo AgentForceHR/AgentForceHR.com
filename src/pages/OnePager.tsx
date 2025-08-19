@@ -182,24 +182,24 @@ const OnePager = () => {
             <CardContent>
               <div className="grid md:grid-cols-3 gap-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary mb-2">$24.3B</div>
+                  <div className="text-3xl font-bold text-primary mb-2">1B</div>
+                  <h3 className="font-semibold mb-2">Total HRT Supply</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Total token supply with deflationary mechanisms
+                  </p>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-secondary mb-2">100</div>
+                  <h3 className="font-semibold mb-2">HRT per Agent</h3>
+                  <p className="text-sm text-muted-foreground">
+                    Token cost for creating each AI agent
+                  </p>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-accent mb-2">$0.0005</div>
                   <h3 className="font-semibold mb-2">HR Software Market</h3>
                   <p className="text-sm text-muted-foreground">
                     Global HR software market size in 2024, growing at 10.4% CAGR
-                  </p>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-secondary mb-2">$3.2B</div>
-                  <h3 className="font-semibold mb-2">Onboarding Software</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Addressable market for employee onboarding solutions
-                  </p>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-accent mb-2">15.2%</div>
-                  <h3 className="font-semibold mb-2">Annual Growth</h3>
-                  <p className="text-sm text-muted-foreground">
-                    Expected CAGR for AI-powered HR solutions through 2030
                   </p>
                 </div>
               </div>
