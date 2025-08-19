@@ -27,8 +27,14 @@ export function Navbar() {
             <Link to="/features" className="text-sm font-medium hover:text-primary transition-colors">
               Features
             </Link>
-            <Link to="/#hr-token" className="text-sm font-medium hover:text-primary transition-colors">
+            <Link to="/hr-token" className="text-sm font-medium hover:text-primary transition-colors">
               HR Token
+            </Link>
+            <Link to="/one-pager" className="text-sm font-medium hover:text-primary transition-colors">
+              One-Pager
+            </Link>
+            <Link to="/whitepaper" className="text-sm font-medium hover:text-primary transition-colors">
+              Whitepaper
             </Link>
             <Link to="/about" className="text-sm font-medium hover:text-primary transition-colors">
               About

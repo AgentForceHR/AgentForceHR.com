@@ -24,8 +24,18 @@ export function Footer() {
               </Link>
             </li>
             <li>
-              <Link to="/pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-                Pricing
+              <Link to="/hr-token" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                HR Token
+              </Link>
+            </li>
+            <li>
+              <Link to="/one-pager" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                One-Pager
+              </Link>
+            </li>
+            <li>
+              <Link to="/whitepaper" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+                Whitepaper
               </Link>
             </li>
             <li>

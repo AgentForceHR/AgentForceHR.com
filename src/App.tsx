@@ -16,6 +16,9 @@ import About from "./pages/About";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsOfService from "./pages/TermsOfService";
 import Features from "./pages/Features";
+import Whitepaper from "./pages/Whitepaper";
+import OnePager from "./pages/OnePager";
+import HRToken from "./pages/HRToken";
 
 const queryClient = new QueryClient();
 
@@ -35,6 +38,9 @@ const App = () => (
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-of-service" element={<TermsOfService />} />
             <Route path="/features" element={<Features />} />
+            <Route path="/whitepaper" element={<Whitepaper />} />
+            <Route path="/one-pager" element={<OnePager />} />
+            <Route path="/hr-token" element={<HRToken />} />
             <Route 
               path="/admin" 
               element={
