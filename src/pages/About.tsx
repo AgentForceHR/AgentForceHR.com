@@ -159,27 +159,27 @@ const About = () => {
             </CardHeader>
             <CardContent>
               <div className="grid md:grid-cols-3 gap-8">
-                <div className="text-center">
+                <div className="text-center md:col-start-1">
                   <div className="w-24 h-24 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                     <Users className="w-12 h-12 text-primary" />
                   </div>
                   <h3 className="text-lg font-semibold mb-2">Cristian Lantadilla</h3>
                   <p className="text-sm text-primary mb-2">CEO & Co-Founder</p>
                   <p className="text-sm text-muted-foreground">
-                    Visionary leader with 10 years of blockchain and AI experience. Passionate about leveraging 
-                    emerging technologies to solve real-world business challenges and improve workplace efficiency.
+                    With 10 years of experience in blockchain and AI, Cristian is passionate about leveraging 
+                    emerging technologies to solve real-world business challenges and create meaningful workplace improvements.
                   </p>
                 </div>
 
-                <div className="text-center">
+                <div className="text-center md:col-start-3">
                   <div className="w-24 h-24 rounded-full bg-secondary/10 flex items-center justify-center mx-auto mb-4">
                     <Users className="w-12 h-12 text-secondary" />
                   </div>
                   <h3 className="text-lg font-semibold mb-2">Renato Ortega</h3>
                   <p className="text-sm text-secondary mb-2">Co-Founder & HR Specialist</p>
                   <p className="text-sm text-muted-foreground">
-                    HR expert with over 8 years in talent acquisition and employee development. 
-                    Dedicated to creating meaningful employee experiences and building inclusive workplace cultures.
+                    With over 8 years in HR and talent development, Renato is dedicated to creating 
+                    meaningful employee experiences and fostering inclusive workplace cultures that help people thrive.
                   </p>
                 </div>
 
