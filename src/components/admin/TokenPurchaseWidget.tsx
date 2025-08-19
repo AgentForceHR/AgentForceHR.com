@@ -150,13 +150,13 @@ export const TokenPurchaseWidget = () => {
               <Label>Estimated Tokens Needed</Label>
               <div className="h-10 flex items-center">
                 <span className="text-lg font-semibold text-primary">
-                  {purchaseAmount ? (parseInt(purchaseAmount) * 10).toLocaleString() : '0'} HRT
+                  {purchaseAmount ? (parseInt(purchaseAmount) * 100).toLocaleString() : '0'} HRT
                 </span>
               </div>
             </div>
           </div>
           <p className="text-sm text-muted-foreground">
-            * Estimated at 10 HRT per agent creation. Actual costs may vary.
+            * Estimated at 100 HRT per agent creation. Actual costs may vary.
           </p>
         </div>
 

@@ -304,7 +304,7 @@ export const HRTokenManager = () => {
           <Alert className="mt-4">
             <Info className="h-4 w-4" />
             <AlertDescription>
-              <strong>Note:</strong> Token transfers are recorded on the blockchain and cannot be reversed. 
+              <strong>Token Cost:</strong> Creating this agent will cost 100 HR tokens. 
               Double-check the recipient address before confirming.
             </AlertDescription>
           </Alert>

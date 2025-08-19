@@ -390,7 +390,7 @@ export const AgentCreationForm = ({ onSuccess, onCancel }: AgentCreationFormProp
           </div>
           <Badge variant="secondary" className="flex items-center gap-1">
             <Coins className="w-3 h-3" />
-            Cost: 10 HRT
+            Cost: 100 HRT
           </Badge>
         </div>
         <CardDescription>
@@ -433,7 +433,7 @@ export const AgentCreationForm = ({ onSuccess, onCancel }: AgentCreationFormProp
         <Alert className="border-accent/20 bg-accent/5">
           <Coins className="h-4 w-4 text-accent" />
           <AlertDescription>
-            <strong>Token Cost:</strong> Creating this agent will cost 10 HR tokens. 
+            <strong>Token Cost:</strong> Creating this agent will cost 100 HR tokens. 
             Make sure you have sufficient balance in your wallet.
           </AlertDescription>
         </Alert>
@@ -477,7 +477,7 @@ export const AgentCreationForm = ({ onSuccess, onCancel }: AgentCreationFormProp
                   ) : (
                     <>
                       <Zap className="w-4 h-4" />
-                      Create Agent (10 HRT)
+                      Create Agent (100 HRT)
                     </>
                   )}
                 </Button>
