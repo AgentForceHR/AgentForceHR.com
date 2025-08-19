@@ -434,7 +434,6 @@ const HRToken = () => {
                 <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
                   <Target className="w-6 h-6 text-primary" />
                 </div>
-                <div className="text-2xl font-bold text-primary mb-1">1M</div>
                 <div className="text-2xl font-bold text-primary mb-1">1B</div>
                 <p className="text-sm text-muted-foreground">Total Supply</p>
               </CardContent>
@@ -444,7 +443,6 @@ const HRToken = () => {
                 <div className="w-12 h-12 rounded-full bg-secondary/10 flex items-center justify-center mx-auto mb-3">
                   <Coins className="w-6 h-6 text-secondary" />
                 </div>
-                <div className="text-2xl font-bold text-secondary mb-1">10</div>
                 <div className="text-2xl font-bold text-secondary mb-1">100</div>
                 <p className="text-sm text-muted-foreground">HRT per Agent</p>
               </CardContent>
@@ -454,7 +452,6 @@ const HRToken = () => {
                 <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center mx-auto mb-3">
                   <Zap className="w-6 h-6 text-accent" />
                 </div>
-                <div className="text-2xl font-bold text-accent mb-1">5%</div>
                 <div className="text-3xl font-bold text-accent mb-2">2%</div>
                 <p className="text-sm text-muted-foreground">Token Burn Rate</p>
               </CardContent>
@@ -464,7 +461,6 @@ const HRToken = () => {
                 <div className="w-12 h-12 rounded-full bg-green-100 dark:bg-green-900 flex items-center justify-center mx-auto mb-3">
                   <BarChart3 className="w-6 h-6 text-green-600" />
                 </div>
-                <div className="text-2xl font-bold text-green-600 mb-1">$0.10</div>
                 <div className="text-2xl font-bold text-green-600 mb-1">$0.0005</div>
                 <p className="text-sm text-muted-foreground">Initial Price</p>
               </CardContent>
