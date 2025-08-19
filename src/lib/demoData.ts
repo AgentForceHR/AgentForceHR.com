@@ -169,7 +169,7 @@ export const demoTokenStatus = {
   tokenAddress: '0x6a07f570FA8b1f197e168a8F75ffBBae7d6D8526',
   walletAddress: '0x742d35Cc6634C0532925a3b8D4C9db96DfbF3b6C',
   connected: true,
-  balance: '5000.0',
+  balance: '50000.0',
   isAvailable: true
 };
 

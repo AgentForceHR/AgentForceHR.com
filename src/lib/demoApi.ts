@@ -16,7 +16,7 @@ import { ApiResponse } from './api';
 
 class DemoApiClient {
   private demoAgents: DemoAgent[] = [...demoAgents];
-  private demoTokenBalance = 5000.0;
+  private demoTokenBalance = 50000.0;
 
   // Check if demo mode is enabled
   private isDemoMode(): boolean {
