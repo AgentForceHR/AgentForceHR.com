@@ -33,7 +33,8 @@ export const AgentCreationForm = ({ onSuccess, onCancel }: AgentCreationFormProp
   const { createAgent } = useAgents();
   const { toast } = useToast();
   const [loading, setLoading] = useState(false);
-  const [step, setStep] = useState(1);
+  const [currentStep, setCurrentStep] = useState(1);
+  const [showPreview, setShowPreview] = useState(false);
   
   const [formData, setFormData] = useState({
     name: '',
@@ -53,6 +54,12 @@ export const AgentCreationForm = ({ onSuccess, onCancel }: AgentCreationFormProp
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    
+    if (currentStep < 3) {
+      // Move to next step instead of submitting
+      setCurrentStep(currentStep + 1);
+      return;
+    }
     
     if (!formData.name || !formData.description || !formData.onboardingScript) {
       toast({
@@ -106,6 +113,18 @@ export const AgentCreationForm = ({ onSuccess, onCancel }: AgentCreationFormProp
       });
     } finally {
       setLoading(false);
+    }
+  };
+
+  const nextStep = () => {
+    if (currentStep < 3) {
+      setCurrentStep(currentStep + 1);
+    }
+  };
+
+  const prevStep = () => {
+    if (currentStep > 1) {
+      setCurrentStep(currentStep - 1);
     }
   };
 
@@ -173,7 +192,7 @@ export const AgentCreationForm = ({ onSuccess, onCancel }: AgentCreationFormProp
   };
 
   const renderStepContent = () => {
-    switch (step) {
+    switch (currentStep) {
       case 1:
         return (
           <div className="space-y-6">
@@ -302,6 +321,60 @@ export const AgentCreationForm = ({ onSuccess, onCancel }: AgentCreationFormProp
           </div>
         );
       
+      case 3:
+        return (
+          <div className="space-y-6">
+            <div className="space-y-4">
+              <div className="flex items-center justify-between">
+                <Label>Knowledge Base</Label>
+                <Button type="button" variant="outline" size="sm" onClick={addKnowledgeItem}>
+                  <Plus className="w-4 h-4 mr-2" />
+                  Add Topic
+                </Button>
+              </div>
+              
+              {formData.configuration.knowledgeBase.map((item, index) => (
+                <div key={index} className="p-4 border rounded-lg space-y-3">
+                  <div className="flex items-center justify-between">
+                    <Label className="text-sm">Topic {index + 1}</Label>
+                    {formData.configuration.knowledgeBase.length > 1 && (
+                      <Button 
+                        type="button" 
+                        variant="ghost" 
+                        size="sm"
+                        onClick={() => removeKnowledgeItem(index)}
+                      >
+                        <Trash2 className="w-4 h-4" />
+                      </Button>
+                    )}
+                  </div>
+                  <Input
+                    placeholder="e.g., Benefits, Policies, IT Setup"
+                    value={item.topic}
+                    onChange={(e) => updateKnowledgeItem(index, 'topic', e.target.value)}
+                  />
+                  <Textarea
+                    placeholder="Detailed information about this topic..."
+                    value={item.content}
+                    onChange={(e) => updateKnowledgeItem(index, 'content', e.target.value)}
+                    rows={3}
+                  />
+                </div>
+              ))}
+            </div>
+            
+            <div className="p-4 bg-muted/30 rounded-lg">
+              <h4 className="font-medium mb-2">Agent Preview</h4>
+              <div className="space-y-2 text-sm">
+                <p><strong>Name:</strong> {formData.name}</p>
+                <p><strong>Personality:</strong> {formData.configuration.personality}</p>
+                <p><strong>Response Style:</strong> {formData.configuration.responseStyle}</p>
+                <p><strong>Knowledge Topics:</strong> {formData.configuration.knowledgeBase.filter(item => item.topic).length}</p>
+              </div>
+            </div>
+          </div>
+        );
+      
       default:
         return null;
     }
@@ -328,22 +401,31 @@ export const AgentCreationForm = ({ onSuccess, onCancel }: AgentCreationFormProp
       <CardContent className="space-y-6">
         {/* Progress Steps */}
         <div className="flex items-center justify-center space-x-4 mb-8">
-          <div className={`flex items-center gap-2 ${step >= 1 ? 'text-primary' : 'text-muted-foreground'}`}>
+          <div className={`flex items-center gap-2 ${currentStep >= 1 ? 'text-primary' : 'text-muted-foreground'}`}>
             <div className={`w-8 h-8 rounded-full flex items-center justify-center border-2 ${
-              step >= 1 ? 'border-primary bg-primary text-primary-foreground' : 'border-muted-foreground'
+              currentStep >= 1 ? 'border-primary bg-primary text-primary-foreground' : 'border-muted-foreground'
             }`}>
-              {step > 1 ? <CheckCircle className="w-4 h-4" /> : '1'}
+              {currentStep > 1 ? <CheckCircle className="w-4 h-4" /> : '1'}
             </div>
             <span className="text-sm font-medium">Basic Info</span>
           </div>
-          <div className={`w-8 h-0.5 ${step > 1 ? 'bg-primary' : 'bg-muted-foreground'}`} />
-          <div className={`flex items-center gap-2 ${step >= 2 ? 'text-primary' : 'text-muted-foreground'}`}>
+          <div className={`w-8 h-0.5 ${currentStep > 1 ? 'bg-primary' : 'bg-muted-foreground'}`} />
+          <div className={`flex items-center gap-2 ${currentStep >= 2 ? 'text-primary' : 'text-muted-foreground'}`}>
             <div className={`w-8 h-8 rounded-full flex items-center justify-center border-2 ${
-              step >= 2 ? 'border-primary bg-primary text-primary-foreground' : 'border-muted-foreground'
+              currentStep >= 2 ? 'border-primary bg-primary text-primary-foreground' : 'border-muted-foreground'
             }`}>
-              {step > 2 ? <CheckCircle className="w-4 h-4" /> : '2'}
+              {currentStep > 2 ? <CheckCircle className="w-4 h-4" /> : '2'}
             </div>
             <span className="text-sm font-medium">Configuration</span>
+          </div>
+          <div className={`w-8 h-0.5 ${currentStep > 2 ? 'bg-primary' : 'bg-muted-foreground'}`} />
+          <div className={`flex items-center gap-2 ${currentStep >= 3 ? 'text-primary' : 'text-muted-foreground'}`}>
+            <div className={`w-8 h-8 rounded-full flex items-center justify-center border-2 ${
+              currentStep >= 3 ? 'border-primary bg-primary text-primary-foreground' : 'border-muted-foreground'
+            }`}>
+              {currentStep > 3 ? <CheckCircle className="w-4 h-4" /> : '3'}
+            </div>
+            <span className="text-sm font-medium">Knowledge & Review</span>
           </div>
         </div>
 
@@ -368,25 +450,25 @@ export const AgentCreationForm = ({ onSuccess, onCancel }: AgentCreationFormProp
                   Cancel
                 </Button>
               )}
-              {step > 1 && (
-                <Button type="button" variant="outline" onClick={() => setStep(step - 1)}>
+              {currentStep > 1 && (
+                <Button type="button" variant="outline" onClick={prevStep}>
                   Previous
                 </Button>
               )}
             </div>
             
             <div className="flex gap-2">
-              {step < 2 ? (
-                <Button 
-                  type="button" 
-                  onClick={() => setStep(step + 1)}
-                  disabled={!formData.name || !formData.description || !formData.onboardingScript}
-                >
+              {currentStep < 3 ? (
+                <Button type="button" onClick={nextStep}>
                   Next
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               ) : (
-                <Button type="submit" disabled={loading} className="flex items-center gap-2">
+                <Button 
+                  type="submit" 
+                  disabled={loading || !formData.name || !formData.description || !formData.onboardingScript} 
+                  className="flex items-center gap-2"
+                >
                   {loading ? (
                     <>
                       <div className="w-4 h-4 border-2 border-current border-t-transparent rounded-full animate-spin" />
