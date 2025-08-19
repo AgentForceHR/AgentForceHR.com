@@ -166,8 +166,8 @@ const About = () => {
                   <h3 className="text-lg font-semibold mb-2">Cristian Lantadilla</h3>
                   <p className="text-sm text-primary mb-2">CEO & Co-Founder</p>
                   <p className="text-sm text-muted-foreground">
-                    Visionary leader with 10 years of blockchain and AI experience. Former blockchain architect 
-                    at leading fintech companies, specializing in decentralized systems and AI integration.
+                    Visionary leader with 10 years of blockchain and AI experience. Passionate about leveraging 
+                    emerging technologies to solve real-world business challenges and improve workplace efficiency.
                   </p>
                 </div>
 
@@ -179,7 +179,7 @@ const About = () => {
                   <p className="text-sm text-secondary mb-2">Co-Founder & HR Specialist</p>
                   <p className="text-sm text-muted-foreground">
                     HR expert with over 8 years in talent acquisition and employee development. 
-                    Former HR director at Fortune 500 companies, passionate about transforming workplace experiences.
+                    Dedicated to creating meaningful employee experiences and building inclusive workplace cultures.
                   </p>
                 </div>
 

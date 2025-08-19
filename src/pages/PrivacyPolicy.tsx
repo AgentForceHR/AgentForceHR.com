@@ -109,7 +109,6 @@ const PrivacyPolicy = () => {
                     <div className="mt-4 p-4 bg-muted/30 rounded-lg">
                       <p className="font-medium">AgentForceHR Privacy Team</p>
                       <p className="text-muted-foreground">Email: privacy@agentforcehr.com</p>
-                      <p className="text-muted-foreground">Address: 123 Innovation Drive, Tech City, TC 12345</p>
                     </div>
                   </section>
                 </div>
