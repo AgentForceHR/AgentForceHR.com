@@ -20,7 +20,7 @@ import {
 
 const Whitepaper = () => {
   const openGitbook = () => {
-    window.open('https://agentforcehr.gitbook.io/whitepaper', '_blank');
+    window.open('https://docs.agentforcehr.com/whitepaper', '_blank');
   };
 
   return (

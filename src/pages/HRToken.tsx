@@ -40,8 +40,17 @@ const HRToken = () => {
         <div className="container mx-auto px-4 py-12">
           {/* Hero Section */}
           <div className="text-center mb-16">
-            <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center mx-auto mb-6">
-              <Coins className="w-12 h-12 text-white" />
+            <div className="relative w-32 h-32 mx-auto mb-6">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary via-secondary to-accent rounded-2xl rotate-3 opacity-20"></div>
+              <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary rounded-2xl shadow-2xl flex items-center justify-center">
+                <div className="text-center">
+                  <div className="text-white font-bold text-2xl mb-1">HR</div>
+                  <div className="text-white/80 text-xs font-medium tracking-wider">TOKEN</div>
+                </div>
+              </div>
+              <div className="absolute -top-2 -right-2 w-8 h-8 bg-accent rounded-full flex items-center justify-center">
+                <Coins className="w-4 h-4 text-white" />
+              </div>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               HR Token{" "}
@@ -101,7 +110,7 @@ const HRToken = () => {
                 <div className="space-y-4">
                   <div className="flex justify-between items-center">
                     <span className="font-medium">Total Supply:</span>
-                    <span className="font-semibold">1,000,000 HRT</span>
+                    <span className="font-semibold">1,000,000,000 HRT</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-medium">Contract Address:</span>
@@ -111,7 +120,7 @@ const HRToken = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-medium">Agent Creation Cost:</span>
-                    <span className="text-primary font-semibold">10 HRT</span>
+                    <span className="text-primary font-semibold">100 HRT</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-medium">Transaction Fees:</span>
@@ -136,9 +145,9 @@ const HRToken = () => {
                   <Bot className="w-12 h-12 text-primary mx-auto mb-4" />
                   <h3 className="text-lg font-semibold mb-2">Agent Creation</h3>
                   <p className="text-sm text-muted-foreground mb-4">
-                    Use 10 HRT to create custom AI agents for employee onboarding
+                    Use 100 HRT to create custom AI agents for employee onboarding
                   </p>
-                  <Badge variant="default">10 HRT per agent</Badge>
+                  <Badge variant="default">100 HRT per agent</Badge>
                 </div>
                 <div className="text-center p-6 border rounded-lg hover:shadow-md transition-all">
                   <Zap className="w-12 h-12 text-secondary mx-auto mb-4" />
@@ -171,39 +180,63 @@ const HRToken = () => {
             <CardContent>
               <div className="grid md:grid-cols-2 gap-8">
                 <div className="space-y-6">
-                  <h3 className="text-lg font-semibold">Token Distribution</h3>
+                  <h3 className="text-lg font-semibold">Token Distribution (1B HRT)</h3>
                   <div className="space-y-4">
                     <div className="space-y-2">
                       <div className="flex justify-between items-center">
-                        <span className="text-sm">Public Sale</span>
-                        <span className="font-semibold">40%</span>
-                      </div>
-                      <Progress value={40} className="h-2" />
-                      <p className="text-xs text-muted-foreground">400,000 HRT available for public purchase</p>
-                    </div>
-                    <div className="space-y-2">
-                      <div className="flex justify-between items-center">
-                        <span className="text-sm">Team & Advisors</span>
-                        <span className="font-semibold">20%</span>
-                      </div>
-                      <Progress value={20} className="h-2" />
-                      <p className="text-xs text-muted-foreground">Vested over 4 years with 1-year cliff</p>
-                    </div>
-                    <div className="space-y-2">
-                      <div className="flex justify-between items-center">
-                        <span className="text-sm">Development Fund</span>
+                        <span className="text-sm">Treasury</span>
                         <span className="font-semibold">25%</span>
                       </div>
                       <Progress value={25} className="h-2" />
-                      <p className="text-xs text-muted-foreground">Platform development and maintenance</p>
+                      <p className="text-xs text-muted-foreground">12.5% at TGE, 12.5% vested over 18 months</p>
                     </div>
                     <div className="space-y-2">
                       <div className="flex justify-between items-center">
-                        <span className="text-sm">Marketing & Partnerships</span>
+                        <span className="text-sm">Staking Rewards</span>
+                        <span className="font-semibold">20%</span>
+                      </div>
+                      <Progress value={20} className="h-2" />
+                      <p className="text-xs text-muted-foreground">Released after 3 months gradually</p>
+                    </div>
+                    <div className="space-y-2">
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm">Liquidity</span>
                         <span className="font-semibold">15%</span>
                       </div>
                       <Progress value={15} className="h-2" />
-                      <p className="text-xs text-muted-foreground">Growth and ecosystem development</p>
+                      <p className="text-xs text-muted-foreground">Available at TGE for DEX liquidity</p>
+                    </div>
+                    <div className="space-y-2">
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm">Pre-sale</span>
+                        <span className="font-semibold">15%</span>
+                      </div>
+                      <Progress value={15} className="h-2" />
+                      <p className="text-xs text-muted-foreground">Available at TGE for early investors</p>
+                    </div>
+                    <div className="space-y-2">
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm">Enterprise Incentives</span>
+                        <span className="font-semibold">10%</span>
+                      </div>
+                      <Progress value={10} className="h-2" />
+                      <p className="text-xs text-muted-foreground">Released after 12 months for partnerships</p>
+                    </div>
+                    <div className="space-y-2">
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm">Reserve Fund</span>
+                        <span className="font-semibold">10%</span>
+                      </div>
+                      <Progress value={10} className="h-2" />
+                      <p className="text-xs text-muted-foreground">Emergency fund released after 18 months</p>
+                    </div>
+                    <div className="space-y-2">
+                      <div className="flex justify-between items-center">
+                        <span className="text-sm">Team</span>
+                        <span className="font-semibold">5%</span>
+                      </div>
+                      <Progress value={5} className="h-2" />
+                      <p className="text-xs text-muted-foreground">Team allocation released after 24 months</p>
                     </div>
                   </div>
                 </div>
@@ -213,7 +246,7 @@ const HRToken = () => {
                     <div className="p-4 bg-primary/5 rounded-lg">
                       <h4 className="font-medium text-primary mb-2">Deflationary Mechanism</h4>
                       <p className="text-sm text-muted-foreground">
-                        5% of tokens used for agent creation are burned, reducing total supply over time
+                        2% of tokens used for agent creation are burned, reducing total supply over time
                       </p>
                     </div>
                     <div className="p-4 bg-secondary/5 rounded-lg">
@@ -402,6 +435,7 @@ const HRToken = () => {
                   <Target className="w-6 h-6 text-primary" />
                 </div>
                 <div className="text-2xl font-bold text-primary mb-1">1M</div>
+                <div className="text-2xl font-bold text-primary mb-1">1B</div>
                 <p className="text-sm text-muted-foreground">Total Supply</p>
               </CardContent>
             </Card>
@@ -411,6 +445,7 @@ const HRToken = () => {
                   <Coins className="w-6 h-6 text-secondary" />
                 </div>
                 <div className="text-2xl font-bold text-secondary mb-1">10</div>
+                <div className="text-2xl font-bold text-secondary mb-1">100</div>
                 <p className="text-sm text-muted-foreground">HRT per Agent</p>
               </CardContent>
             </Card>
@@ -420,6 +455,7 @@ const HRToken = () => {
                   <Zap className="w-6 h-6 text-accent" />
                 </div>
                 <div className="text-2xl font-bold text-accent mb-1">5%</div>
+                <div className="text-3xl font-bold text-accent mb-2">2%</div>
                 <p className="text-sm text-muted-foreground">Token Burn Rate</p>
               </CardContent>
             </Card>
@@ -429,6 +465,7 @@ const HRToken = () => {
                   <BarChart3 className="w-6 h-6 text-green-600" />
                 </div>
                 <div className="text-2xl font-bold text-green-600 mb-1">$0.10</div>
+                <div className="text-2xl font-bold text-green-600 mb-1">$0.0005</div>
                 <p className="text-sm text-muted-foreground">Initial Price</p>
               </CardContent>
             </Card>
