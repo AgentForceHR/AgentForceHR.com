@@ -26,6 +26,7 @@ import {
   DollarSign,
   CheckCircle,
   ArrowRight,
+  AlertCircle,
   Info,
   Award,
   Briefcase,
