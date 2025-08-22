@@ -1,0 +1,22 @@
+# AgentForceHR Technical Whitepaper
+
+This is a placeholder for the PDF version of the whitepaper.
+In a production environment, this would be a properly formatted PDF document
+containing all the technical details, charts, and analysis from the whitepaper page.
+
+The PDF would include:
+- Executive Summary
+- Technical Architecture
+- Market Analysis
+- Tokenomics
+- Financial Projections
+- Risk Analysis
+- Team Information
+- Regulatory Compliance
+- Implementation Roadmap
+
+To generate the actual PDF, you would use tools like:
+- Puppeteer to convert the web page to PDF
+- LaTeX for professional document formatting
+- Adobe InDesign for design-heavy layouts
+- Or specialized documentation tools
