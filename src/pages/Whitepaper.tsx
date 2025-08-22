@@ -121,14 +121,6 @@ const Whitepaper = () => {
               </Button>
             </div>
             <p className="text-sm text-muted-foreground mt-4">
-          
-          <div className="mt-12 mb-8">
-            <Separator />
-          </div>
-          
-          <div className="mt-12 mb-8">
-            <Separator />
-          </div>
               Last updated: {new Date().toLocaleDateString()} • Version 2.1 • 47 pages
             </p>
           </div>
@@ -1721,6 +1713,7 @@ const Whitepaper = () => {
                   Download PDF Version
                 </Button>
               </div>
+            </CardContent>
           </Card>
         </div>
       </div>
