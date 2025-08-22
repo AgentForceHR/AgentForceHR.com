@@ -120,4 +120,22 @@ All colors MUST be HSL.
   body {
     @apply bg-background text-foreground;
   }
+  
+  /* Custom animations for HR token logo */
+  @keyframes float {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-6px) rotate(2deg); }
+  }
+  
+  .animate-float {
+    animation: float 4s ease-in-out infinite;
+  }
+  
+  .delay-1000 {
+    animation-delay: 1s;
+  }
+  
+  .delay-2000 {
+    animation-delay: 2s;
+  }
 }

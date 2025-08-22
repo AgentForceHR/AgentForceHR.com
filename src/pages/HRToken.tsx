@@ -40,18 +40,38 @@ const HRToken = () => {
         <div className="container mx-auto px-4 py-12">
           {/* Hero Section */}
           <div className="text-center mb-16">
-            <div className="relative w-32 h-32 mx-auto mb-6">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary via-secondary to-accent rounded-2xl rotate-3 opacity-20"></div>
-              <div className="absolute inset-0 bg-gradient-to-br from-primary to-secondary rounded-2xl shadow-2xl flex items-center justify-center">
-                <div className="text-center">
-                  <div className="text-white font-bold text-2xl mb-1">HR</div>
-                  <div className="text-white/80 text-xs font-medium tracking-wider">TOKEN</div>
+            <div className="relative w-40 h-40 mx-auto mb-8">
+              {/* Background glow effect */}
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/30 to-secondary/30 rounded-full blur-xl scale-110"></div>
+              
+              {/* Main token container */}
+              <div className="relative w-full h-full">
+                {/* Outer ring */}
+                <div className="absolute inset-0 rounded-full border-4 border-gradient-to-br from-primary to-secondary bg-gradient-to-br from-background to-muted shadow-2xl">
+                  {/* Inner circle with logo */}
+                  <div className="absolute inset-4 rounded-full bg-gradient-to-br from-primary via-primary/90 to-secondary flex items-center justify-center shadow-inner">
+                    <div className="text-center">
+                      <div className="text-white font-bold text-3xl mb-1 tracking-tight">HRT</div>
+                      <div className="text-white/90 text-xs font-semibold tracking-widest">TOKEN</div>
+                    </div>
+                  </div>
+                  
+                  {/* Decorative elements */}
+                  <div className="absolute -top-2 -right-2 w-8 h-8 bg-accent rounded-full flex items-center justify-center shadow-lg">
+                    <Coins className="w-4 h-4 text-white" />
+                  </div>
+                  <div className="absolute -bottom-2 -left-2 w-6 h-6 bg-secondary rounded-full flex items-center justify-center shadow-lg">
+                    <div className="w-2 h-2 bg-white rounded-full"></div>
+                  </div>
                 </div>
               </div>
-              <div className="absolute -top-2 -right-2 w-8 h-8 bg-accent rounded-full flex items-center justify-center">
-                <Coins className="w-4 h-4 text-white" />
-              </div>
+              
+              {/* Floating particles */}
+              <div className="absolute top-4 left-8 w-2 h-2 bg-primary/40 rounded-full animate-float"></div>
+              <div className="absolute bottom-8 right-4 w-1.5 h-1.5 bg-secondary/40 rounded-full animate-float delay-1000"></div>
+              <div className="absolute top-12 right-8 w-1 h-1 bg-accent/40 rounded-full animate-float delay-2000"></div>
             </div>
+            
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               HR Token{" "}
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
