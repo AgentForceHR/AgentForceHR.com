@@ -1,73 +1,57 @@
-# Welcome to your Lovable project
+# AgentForceHR - AI HR Project
 
-## Project info
+## Project Overview
 
-**URL**: https://lovable.dev/projects/66ea0765-1e14-4465-a5bd-4255fb6b8632
+AgentForceHR.com is a modern web application developed by AgentForceHR using cutting-edge technologies to deliver high performance and usability. The project leverages TypeScript, React, and Tailwind CSS to create a scalable and maintainable codebase.
 
-## How can I edit this code?
+## Technologies Used
 
-There are several ways of editing your application.
+- Vite: Build tool and development server for fast bundling and hot module replacement.
+- TypeScript: Adds static type definitions to JavaScript for improved developer experience and code quality.
+- React: A declarative JavaScript library for building user interfaces.
+- shadcn-ui: A component library built on top of Tailwind CSS.
+- Tailwind CSS: A utility-first CSS framework for rapid UI development.
 
-**Use Lovable**
+## Usage
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/66ea0765-1e14-4465-a5bd-4255fb6b8632) and start prompting.
+AgentForceHR.com project is intended for internal use by authorized collaborators. Please refer to your internal documentation or project contact for setup and deployment instructions specific to your environment.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Contribution Guidelines
 
-**Use your preferred IDE**
+Contributions are welcome from invited collaborators with repository access. Please follow standard Git workflows with branches, pull requests, and code reviews to maintain code quality.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you have questions or require additional permissions, please contact the project maintainers directly.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Deployment
 
-Follow these steps:
+Deployment processes vary depending on the hosting and staging environments used internally. Please consult the project deployment guide or the DevOps team for detailed instructions.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## Support
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+For support inquiries, please reach out to the AgentForceHR development team or file an internal ticket in the project management system.
 
-# Step 3: Install the necessary dependencies.
-npm i
+## License
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+MIT License
 
-**Use GitHub Codespaces**
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/66ea0765-1e14-4465-a5bd-4255fb6b8632) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
