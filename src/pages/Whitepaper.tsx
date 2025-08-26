@@ -1396,39 +1396,42 @@ const Whitepaper = () => {
             
 
           {/* Conclusion */}
-          <Card className="mb-8">
-            <CardHeader>
-              <CardTitle className="text-2xl">13. Conclusion</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-6">
-              <p className="text-muted-foreground text-lg">
-                AgentForceHR represents a transformative opportunity in the rapidly growing HR technology market. 
-                By combining cutting-edge AI with blockchain security and a sustainable token economy, we are positioned 
-                to capture significant market share while delivering measurable value to organizations worldwide.
-              </p>
-              
-              <div className="grid md:grid-cols-3 gap-6">
-                <div className="text-center p-6 bg-primary/5 rounded-lg">
-                  <Target className="w-8 h-8 text-primary mx-auto mb-3" />
-                  <h3 className="font-semibold mb-2">Market Opportunity</h3>
-                  <p className="text-sm text-muted-foreground">
-                    $35.68B addressable market with 15.2% CAGR in AI-HR segment
-                  </p>
-                </div>
-                <div className="text-center p-6 bg-secondary/5 rounded-lg">
-                  <Zap className="w-8 h-8 text-secondary mx-auto mb-3" />
-<h3 className="font-semibold mb-2">Competitive Advantage</h3>
-<p className="text-sm text-muted-foreground">
-  First-mover advantage in blockchain-powered HR AI with proven technology stack
-</p>
-</div> {/* CLOSE this div! */}
-<div className="text-center p-6 bg-accent/5 rounded-lg">
-  <TrendingUp className="w-8 h-8 text-accent mx-auto mb-3" />
-  <h3 className="font-semibold mb-2">Growth Potential</h3>
-  <p className="text-sm text-muted-foreground">
-    185% revenue CAGR with path to $33.5M annual revenue by 2029
-  </p>
-</div>
+<Card className="mb-8">
+  <CardHeader>
+    <CardTitle className="text-2xl">13. Conclusion</CardTitle>
+  </CardHeader>
+  <CardContent className="space-y-6">
+    <p className="text-muted-foreground text-lg">
+      AgentForceHR represents a transformative opportunity in the rapidly growing HR technology market. 
+      By combining cutting-edge AI with blockchain security and a sustainable token economy, we are positioned 
+      to capture significant market share while delivering measurable value to organizations worldwide.
+    </p>
+    
+    <div className="grid md:grid-cols-3 gap-6">
+      <div className="text-center p-6 bg-primary/5 rounded-lg">
+        <Target className="w-8 h-8 text-primary mx-auto mb-3" />
+        <h3 className="font-semibold mb-2">Market Opportunity</h3>
+        <p className="text-sm text-muted-foreground">
+          $35.68B addressable market with 15.2% CAGR in AI-HR segment
+        </p>
+      </div>
+      <div className="text-center p-6 bg-secondary/5 rounded-lg">
+        <Zap className="w-8 h-8 text-secondary mx-auto mb-3" />
+        <h3 className="font-semibold mb-2">Competitive Advantage</h3>
+        <p className="text-sm text-muted-foreground">
+          First-mover advantage in blockchain-powered HR AI with proven technology stack
+        </p>
+      </div>
+      <div className="text-center p-6 bg-accent/5 rounded-lg">
+        <TrendingUp className="w-8 h-8 text-accent mx-auto mb-3" />
+        <h3 className="font-semibold mb-2">Growth Potential</h3>
+        <p className="text-sm text-muted-foreground">
+          185% revenue CAGR with path to $33.5M annual revenue by 2029
+        </p>
+      </div>
+    </div>
+  </CardContent>
+</Card>
 
 <Card>
   <CardContent>
