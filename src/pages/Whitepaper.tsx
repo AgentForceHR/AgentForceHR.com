@@ -51,12 +51,7 @@ const Whitepaper = () => {
               A comprehensive technical analysis of blockchain-powered AI agents for HR automation, 
               tokenomics, market opportunity, and implementation roadmap.
             </p>
-            <div className="flex justify-center">
-              <Button onClick={downloadPDF} variant="hero" size="xl" className="group">
-                <Download className="w-5 h-5 mr-2" />
-                Download PDF Version
-              </Button>
-            </div>
+            
           </div>
 
           {/* Table of Contents */}
@@ -1363,13 +1358,14 @@ const Whitepaper = () => {
                   </div>
                 </div>
               </div>
+              <>br</>
 
               
 
               <div className="space-y-4">
                 <h3 className="text-xl font-semibold">12.3 Governance Model</h3>
                 <p className="text-muted-foreground">
-                  AgentForceHR will transition to a decentralized autonomous organization (DAO) structure by Q4 2025, 
+                  AgentForceHR will transition to a decentralized autonomous organization (DAO) structure by Q2 2026, 
                   enabling token holders to participate in platform governance and strategic decision-making.
                 </p>
                 
@@ -1446,22 +1442,7 @@ const Whitepaper = () => {
           </Card>
 
           {/* Download CTA */}
-          <Card className="bg-gradient-to-r from-primary/10 to-secondary/10 border-primary/20">
-            <CardContent className="text-center py-12">
-              <h2 className="text-3xl font-bold mb-4">Download Complete Whitepaper</h2>
-              <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Get the full 47-page technical whitepaper with detailed financial models, 
-                technical specifications, and market analysis.
-              </p>
-              <Button onClick={downloadPDF} variant="hero" size="xl" className="group">
-                <Download className="w-5 h-5 mr-2" />
-                Download PDF (2.3 MB)
-              </Button>
-              <p className="text-sm text-muted-foreground mt-4">
-                Includes executive summary, technical architecture, tokenomics, and 5-year financial projections
-              </p>
-            </CardContent>
-          </Card>
+          
         </div>
       </div>
       <Footer />
