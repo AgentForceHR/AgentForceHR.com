@@ -976,19 +976,19 @@ const Whitepaper = () => {
                     <tbody>
                       <tr>
                         <td className="border border-border p-3 font-medium">Basic Agent Creation</td>
-                        <td className="border border-border p-3 text-center">100 HRT</td>
+                        <td className="border border-border p-3 text-center">1000 HRT</td>
                         <td className="border border-border p-3 text-center">$50</td>
                         <td className="border border-border p-3 text-sm text-muted-foreground">Standard AI agent with basic features</td>
                       </tr>
                       <tr className="bg-muted/20">
                         <td className="border border-border p-3 font-medium">Advanced Analytics</td>
-                        <td className="border border-border p-3 text-center">25 HRT</td>
+                        <td className="border border-border p-3 text-center">250 HRT</td>
                         <td className="border border-border p-3 text-center">$12.50</td>
                         <td className="border border-border p-3 text-sm text-muted-foreground">Detailed performance metrics and insights</td>
                       </tr>
                       <tr>
                         <td className="border border-border p-3 font-medium">Custom Integrations</td>
-                        <td className="border border-border p-3 text-center">50 HRT</td>
+                        <td className="border border-border p-3 text-center">500 HRT</td>
                         <td className="border border-border p-3 text-center">$25</td>
                         <td className="border border-border p-3 text-sm text-muted-foreground">Connect with external HR systems</td>
                       </tr>
@@ -1358,7 +1358,8 @@ const Whitepaper = () => {
                   </div>
                 </div>
               </div>
-              <>br</>
+              <>br<>
+              <>br<>
 
               
 
