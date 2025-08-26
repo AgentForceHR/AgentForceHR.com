@@ -1393,8 +1393,7 @@ const Whitepaper = () => {
                   </div>
                 </div>
               </div>
-            </CardContent>
-          </Card>
+            
 
           {/* Conclusion */}
           <Card className="mb-8">
@@ -1445,10 +1444,10 @@ const Whitepaper = () => {
           {/* Download CTA */}
           
         </div>
-      </div>
+    
       <Footer />
     </>
-  );
+
 };
 
 export default Whitepaper;
