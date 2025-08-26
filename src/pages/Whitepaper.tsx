@@ -1427,27 +1427,23 @@ const Whitepaper = () => {
                   <h3 className="font-semibold mb-2">Growth Potential</h3>
                   <p className="text-sm text-muted-foreground">
                     185% revenue CAGR with path to $33.5M annual revenue by 2029
-                  </p>
-                </div>
-              </div>
-              
-              <Alert className="border-primary/20 bg-primary/5">
-                <FileText className="h-4 w-4 text-primary" />
-                <AlertDescription>
-                  <strong>Investment Opportunity:</strong> AgentForceHR is positioned to become the leading platform 
-                  for AI-powered HR automation, with strong fundamentals, proven technology, and a clear path to profitability.
-                </AlertDescription>
-              </Alert>
-            </CardContent>
-          </Card>
+                  <>
+  {/* ...other content... */}
 
-          {/* Download CTA */}
-          
-        </div>
-    
-      <Footer />
-    </>
+  <Card>
+    <CardContent>
+      {/* ...other content... */}
+      <Alert className="border-primary/20 bg-primary/5">
+        <FileText className="h-4 w-4 text-primary" />
+        <AlertDescription>
+          <strong>Investment Opportunity:</strong> AgentForceHR is positioned to become the leading platform 
+          for AI-powered HR automation, with strong fundamentals, proven technology, and a clear path to profitability.
+        </AlertDescription>
+      </Alert>
+    </CardContent>
+  </Card>
 
-};
+  {/* Download CTA */}
 
-export default Whitepaper;
+  <Footer />
+</>
