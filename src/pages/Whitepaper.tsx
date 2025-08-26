@@ -1358,8 +1358,6 @@ const Whitepaper = () => {
                   </div>
                 </div>
               </div>
-              <>br<>
-              <>br<>
 
               
 
@@ -1444,7 +1442,7 @@ const Whitepaper = () => {
     </Alert>
   </CardContent>
 </Card>
-
+</>
 {/* Download CTA */}
 
 <Footer />
