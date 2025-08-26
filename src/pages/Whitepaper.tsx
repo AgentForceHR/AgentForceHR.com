@@ -1444,6 +1444,6 @@ const Whitepaper = () => {
   </Card>
 
   {/* Download CTA */}
-
+</p>
   <Footer />
 </>
