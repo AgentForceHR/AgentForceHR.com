@@ -1442,7 +1442,6 @@ const Whitepaper = () => {
     </Alert>
   </CardContent>
 </Card>
-</>
 {/* Download CTA */}
 
 <Footer />
