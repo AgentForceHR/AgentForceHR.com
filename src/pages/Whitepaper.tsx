@@ -1202,7 +1202,7 @@ const Whitepaper = () => {
               <div className="space-y-8">
                 <div className="flex items-start gap-4">
                   <div className="w-16 h-16 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold">
-                    Q1 25
+                    Q3 25
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg font-semibold mb-2">Platform Launch & Token Distribution</h3>
@@ -1234,7 +1234,7 @@ const Whitepaper = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="w-16 h-16 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center font-bold">
-                    Q2 25
+                    Q4 25
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg font-semibold mb-2">Enterprise Features & Integrations</h3>
@@ -1266,7 +1266,7 @@ const Whitepaper = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="w-16 h-16 rounded-full bg-accent text-accent-foreground flex items-center justify-center font-bold">
-                    Q3 25
+                    Q1 26
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg font-semibold mb-2">AI Enhancement & Marketplace</h3>
@@ -1298,7 +1298,7 @@ const Whitepaper = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="w-16 h-16 rounded-full bg-purple-600 text-white flex items-center justify-center font-bold">
-                    Q4 25
+                    Q2 26
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg font-semibold mb-2">Global Scaling & DAO Governance</h3>
@@ -1347,8 +1347,7 @@ const Whitepaper = () => {
                     <h3 className="text-lg font-semibold mb-2">Cristian Lantadilla</h3>
                     <p className="text-sm text-primary mb-2">CEO & Co-Founder</p>
                     <p className="text-sm text-muted-foreground">
-                      10+ years of experience in blockchain technology and AI systems. Previously led engineering 
-                      teams at Fortune 500 companies, with expertise in distributed systems and enterprise software architecture.
+                      10+ years of experience in blockchain technology and AI systems. With expertise in distributed systems and enterprise software architecture.
                     </p>
                   </div>
                   <div className="text-center">
@@ -1365,32 +1364,7 @@ const Whitepaper = () => {
                 </div>
               </div>
 
-              <div className="space-y-4">
-                <h3 className="text-xl font-semibold">12.2 Advisory Board</h3>
-                <div className="grid md:grid-cols-3 gap-6">
-                  <div className="p-4 border rounded-lg">
-                    <h4 className="font-semibold mb-2">Dr. Sarah Chen</h4>
-                    <p className="text-sm text-primary mb-1">AI Research Advisor</p>
-                    <p className="text-xs text-muted-foreground">
-                      Former Google AI researcher, 15+ publications in NLP and conversational AI
-                    </p>
-                  </div>
-                  <div className="p-4 border rounded-lg">
-                    <h4 className="font-semibold mb-2">Michael Rodriguez</h4>
-                    <p className="text-sm text-secondary mb-1">Blockchain Technology Advisor</p>
-                    <p className="text-xs text-muted-foreground">
-                      Former Ethereum Foundation member, expert in smart contract security and DeFi protocols
-                    </p>
-                  </div>
-                  <div className="p-4 border rounded-lg">
-                    <h4 className="font-semibold mb-2">Jennifer Park</h4>
-                    <p className="text-sm text-accent mb-1">HR Industry Advisor</p>
-                    <p className="text-xs text-muted-foreground">
-                      Former CHRO at Fortune 100 companies, 20+ years in strategic HR transformation
-                    </p>
-                  </div>
-                </div>
-              </div>
+              
 
               <div className="space-y-4">
                 <h3 className="text-xl font-semibold">12.3 Governance Model</h3>
