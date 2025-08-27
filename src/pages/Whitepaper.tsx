@@ -1,3 +1,4 @@
+
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
@@ -51,7 +52,10 @@ const Whitepaper = () => {
               A comprehensive technical analysis of blockchain-powered AI agents for HR automation, 
               tokenomics, market opportunity, and implementation roadmap.
             </p>
-            
+            <Button onClick={downloadPDF} className="gap-2">
+              <Download className="w-4 h-4" />
+              Download PDF Version
+            </Button>
           </div>
 
           {/* Table of Contents */}
@@ -303,6 +307,56 @@ const Whitepaper = () => {
                   </div>
                 </div>
               </div>
+
+              <Separator className="my-8" />
+
+              <div className="space-y-4">
+                <h3 className="text-xl font-semibold">2.4 Market Drivers</h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="space-y-4">
+                    <h4 className="font-semibold">Technology Drivers</h4>
+                    <ul className="space-y-2 text-sm text-muted-foreground">
+                      <li className="flex items-start gap-2">
+                        <div className="w-2 h-2 rounded-full bg-primary mt-2 shrink-0" />
+                        <span>Advancement in conversational AI and natural language processing</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <div className="w-2 h-2 rounded-full bg-primary mt-2 shrink-0" />
+                        <span>Blockchain adoption for enterprise data security and transparency</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <div className="w-2 h-2 rounded-full bg-primary mt-2 shrink-0" />
+                        <span>Cloud infrastructure maturity enabling scalable AI deployments</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <div className="w-2 h-2 rounded-full bg-primary mt-2 shrink-0" />
+                        <span>Integration capabilities with existing enterprise systems</span>
+                      </li>
+                    </ul>
+                  </div>
+                  <div className="space-y-4">
+                    <h4 className="font-semibold">Business Drivers</h4>
+                    <ul className="space-y-2 text-sm text-muted-foreground">
+                      <li className="flex items-start gap-2">
+                        <div className="w-2 h-2 rounded-full bg-secondary mt-2 shrink-0" />
+                        <span>Remote work trends requiring digital-first onboarding solutions</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <div className="w-2 h-2 rounded-full bg-secondary mt-2 shrink-0" />
+                        <span>Talent shortage driving need for efficient onboarding processes</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <div className="w-2 h-2 rounded-full bg-secondary mt-2 shrink-0" />
+                        <span>Regulatory compliance requirements for audit trails and documentation</span>
+                      </li>
+                      <li className="flex items-start gap-2">
+                        <div className="w-2 h-2 rounded-full bg-secondary mt-2 shrink-0" />
+                        <span>Cost pressure to reduce administrative overhead and improve efficiency</span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </CardContent>
           </Card>
 
@@ -402,56 +456,6 @@ const Whitepaper = () => {
                       </tr>
                     </tbody>
                   </table>
-                </div>
-              </div>
-
-              <Separator className="my-8" />
-
-              <div className="space-y-4">
-                <h3 className="text-xl font-semibold">2.3 Market Drivers</h3>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="space-y-4">
-                    <h4 className="font-semibold">Technology Drivers</h4>
-                    <ul className="space-y-2 text-sm text-muted-foreground">
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 rounded-full bg-primary mt-2 shrink-0" />
-                        <span>Advancement in conversational AI and natural language processing</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 rounded-full bg-primary mt-2 shrink-0" />
-                        <span>Blockchain adoption for enterprise data security and transparency</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 rounded-full bg-primary mt-2 shrink-0" />
-                        <span>Cloud infrastructure maturity enabling scalable AI deployments</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 rounded-full bg-primary mt-2 shrink-0" />
-                        <span>Integration capabilities with existing enterprise systems</span>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="space-y-4">
-                    <h4 className="font-semibold">Business Drivers</h4>
-                    <ul className="space-y-2 text-sm text-muted-foreground">
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 rounded-full bg-secondary mt-2 shrink-0" />
-                        <span>Remote work trends requiring digital-first onboarding solutions</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 rounded-full bg-secondary mt-2 shrink-0" />
-                        <span>Talent shortage driving need for efficient onboarding processes</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 rounded-full bg-secondary mt-2 shrink-0" />
-                        <span>Regulatory compliance requirements for audit trails and documentation</span>
-                      </li>
-                      <li className="flex items-start gap-2">
-                        <div className="w-2 h-2 rounded-full bg-secondary mt-2 shrink-0" />
-                        <span>Cost pressure to reduce administrative overhead and improve efficiency</span>
-                      </li>
-                    </ul>
-                  </div>
                 </div>
               </div>
             </CardContent>
@@ -1359,8 +1363,6 @@ const Whitepaper = () => {
                 </div>
               </div>
 
-              
-
               <div className="space-y-4">
                 <h3 className="text-xl font-semibold">12.3 Governance Model</h3>
                 <p className="text-muted-foreground">
@@ -1391,57 +1393,64 @@ const Whitepaper = () => {
                   </div>
                 </div>
               </div>
-            
+            </CardContent>
+          </Card>
 
-          {/* Conclusion */}
-<Card className="mb-8">
-  <CardHeader>
-    <CardTitle className="text-2xl">13. Conclusion</CardTitle>
-  </CardHeader>
-  <CardContent className="space-y-6">
-    <p className="text-muted-foreground text-lg">
-      AgentForceHR represents a transformative opportunity in the rapidly growing HR technology market. 
-      By combining cutting-edge AI with blockchain security and a sustainable token economy, we are positioned 
-      to capture significant market share while delivering measurable value to organizations worldwide.
-    </p>
-    
-    <div className="grid md:grid-cols-3 gap-6">
-      <div className="text-center p-6 bg-primary/5 rounded-lg">
-        <Target className="w-8 h-8 text-primary mx-auto mb-3" />
-        <h3 className="font-semibold mb-2">Market Opportunity</h3>
-        <p className="text-sm text-muted-foreground">
-          $35.68B addressable market with 15.2% CAGR in AI-HR segment
-        </p>
-      </div>
-      <div className="text-center p-6 bg-secondary/5 rounded-lg">
-        <Zap className="w-8 h-8 text-secondary mx-auto mb-3" />
-        <h3 className="font-semibold mb-2">Competitive Advantage</h3>
-        <p className="text-sm text-muted-foreground">
-          First-mover advantage in blockchain-powered HR AI with proven technology stack
-        </p>
-      </div>
-      <div className="text-center p-6 bg-accent/5 rounded-lg">
-        <TrendingUp className="w-8 h-8 text-accent mx-auto mb-3" />
-        <h3 className="font-semibold mb-2">Growth Potential</h3>
-        <p className="text-sm text-muted-foreground">
-          185% revenue CAGR with path to $33.5M annual revenue by 2029
-        </p>
-      </div>
-    </div>
-  </CardContent>
-</Card>
+          {/* 13. Conclusion */}
+          <Card className="mb-8">
+            <CardHeader>
+              <CardTitle className="text-2xl">13. Conclusion</CardTitle>
+            </CardHeader>
+            <CardContent className="space-y-6">
+              <p className="text-muted-foreground text-lg">
+                AgentForceHR represents a transformative opportunity in the rapidly growing HR technology market. 
+                By combining cutting-edge AI with blockchain security and a sustainable token economy, we are positioned 
+                to capture significant market share while delivering measurable value to organizations worldwide.
+              </p>
+              
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="text-center p-6 bg-primary/5 rounded-lg">
+                  <Target className="w-8 h-8 text-primary mx-auto mb-3" />
+                  <h3 className="font-semibold mb-2">Market Opportunity</h3>
+                  <p className="text-sm text-muted-foreground">
+                    $35.68B addressable market with 15.2% CAGR in AI-HR segment
+                  </p>
+                </div>
+                <div className="text-center p-6 bg-secondary/5 rounded-lg">
+                  <Zap className="w-8 h-8 text-secondary mx-auto mb-3" />
+                  <h3 className="font-semibold mb-2">Competitive Advantage</h3>
+                  <p className="text-sm text-muted-foreground">
+                    First-mover advantage in blockchain-powered HR AI with proven technology stack
+                  </p>
+                </div>
+                <div className="text-center p-6 bg-accent/5 rounded-lg">
+                  <TrendingUp className="w-8 h-8 text-accent mx-auto mb-3" />
+                  <h3 className="font-semibold mb-2">Growth Potential</h3>
+                  <p className="text-sm text-muted-foreground">
+                    185% revenue CAGR with path to $33.5M annual revenue by 2029
+                  </p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
 
-<Card>
-  <CardContent>
-    <Alert className="border-primary/20 bg-primary/5">
-      <FileText className="h-4 w-4 text-primary" />
-      <AlertDescription>
-        <strong>Investment Opportunity:</strong> AgentForceHR is positioned to become the leading platform 
-        for AI-powered HR automation, with strong fundamentals, proven technology, and a clear path to profitability.
-      </AlertDescription>
-    </Alert>
-  </CardContent>
-</Card>
-{/* Download CTA */}
+          {/* Investment Opportunity Alert */}
+          <Card className="mb-8">
+            <CardContent className="pt-6">
+              <Alert className="border-primary/20 bg-primary/5">
+                <FileText className="h-4 w-4 text-primary" />
+                <AlertDescription>
+                  <strong>Investment Opportunity:</strong> AgentForceHR is positioned to become the leading platform 
+                  for AI-powered HR automation, with strong fundamentals, proven technology, and a clear path to profitability.
+                </AlertDescription>
+              </Alert>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+      <Footer />
+    </>
+  );
+};
 
-<Footer />
+export default Whitepaper;
