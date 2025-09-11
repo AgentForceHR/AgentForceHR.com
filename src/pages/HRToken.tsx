@@ -586,8 +586,7 @@ const HRToken = () => {
                 </div>
                 <div className="text-center p-6 border rounded-lg">
                   <CheckCircle className="w-8 h-8 text-green-600 mx-auto mb-3" />
-                  <h3 className="font-semibold mb-2">Transparency</h3>
-                    BSC infrastructure enables global deployment with 
+                    All transactions and token movements are publicly verifiable on BSCScan
                     All transactions and token movements are publicly verifiable on BSCScan
                   </p>
                 </div>
