@@ -41,10 +41,10 @@ const Features = () => {
       title: "Blockchain Security",
       description: "Secure, transparent, and immutable record-keeping on the blockchain",
       details: [
-        "Immutable audit trails for compliance",
-        "Decentralized data verification",
+        "BSC immutable audit trails for compliance",
+        "Decentralized BSC data verification",
         "Smart contract automation",
-        "Transparent token transactions"
+        "Transparent BSC token transactions"
       ],
       color: "text-green-600"
     },
@@ -53,10 +53,10 @@ const Features = () => {
       title: "HR Token System",
       description: "Pay-per-use token system for creating and managing AI agents",
       details: [
-        "Transparent pricing with blockchain tokens",
+        "Transparent pricing with BSC tokens",
         "No monthly subscriptions or hidden fees",
-        "Scalable cost structure",
-        "Token balance management tools"
+        "Ultra-low BSC transaction fees",
+        "Real-time BSC balance tracking"
       ],
       color: "text-purple-600"
     },
@@ -204,10 +204,10 @@ const Features = () => {
                   </div>
                   <h3 className="text-lg font-semibold mb-2">Blockchain</h3>
                   <ul className="text-sm text-muted-foreground space-y-1">
-                    <li>Sonic Network (BSC Compatible)</li>
+                    <li>Binance Smart Chain (BSC)</li>
                     <li>Smart Contract Automation</li>
-                    <li>ERC-20 Token Standard</li>
-                    <li>Immutable Record Keeping</li>
+                    <li>BEP-20 Token Standard</li>
+                    <li>BSC Immutable Record Keeping</li>
                   </ul>
                 </div>
 
@@ -289,7 +289,7 @@ const Features = () => {
                 <div className="text-3xl font-bold text-accent mb-2">24/7</div>
                 <p className="text-sm text-muted-foreground">Global Support</p>
                 <p className="text-xs text-muted-foreground mt-2">
-                  AI agents available around the clock
+                  BSC-powered AI agents available globally 24/7
                 </p>
               </CardContent>
             </Card>

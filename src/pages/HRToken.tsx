@@ -26,11 +26,11 @@ import {
 
 const HRToken = () => {
   const openDEX = () => {
-    window.open('https://app.uniswap.org/#/swap?chain=sonic_testnet&outputCurrency=0x6a07f570FA8b1f197e168a8F75ffBBae7d6D8526', '_blank');
+    window.open('https://pancakeswap.finance/swap?outputCurrency=0x742d35Cc6634C0532925a3b8D4C9db96DfbF3b6C', '_blank');
   };
 
   const copyContractAddress = () => {
-    navigator.clipboard.writeText('0x6a07f570FA8b1f197e168a8F75ffBBae7d6D8526');
+    navigator.clipboard.writeText('0x742d35Cc6634C0532925a3b8D4C9db96DfbF3b6C');
   };
 
   return (
@@ -116,7 +116,7 @@ const HRToken = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-medium">Network:</span>
-                    <Badge variant="secondary">Sonic (BSC Compatible)</Badge>
+                    <Badge variant="secondary">Binance Smart Chain</Badge>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-medium">Standard:</span>
@@ -135,7 +135,7 @@ const HRToken = () => {
                   <div className="flex justify-between items-center">
                     <span className="font-medium">Contract Address:</span>
                     <Button variant="ghost" size="sm" onClick={copyContractAddress}>
-                      <code className="text-xs">0x6a07...8526</code>
+                      <code className="text-xs">0x742d...3b6C</code>
                     </Button>
                   </div>
                   <div className="flex justify-between items-center">
@@ -144,7 +144,7 @@ const HRToken = () => {
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="font-medium">Transaction Fees:</span>
-                    <span className="text-green-600 font-semibold">Ultra Low</span>
+                    <span className="text-green-600 font-semibold">~$0.01 on BSC</span>
                   </div>
                 </div>
               </div>
@@ -504,28 +504,28 @@ const HRToken = () => {
                       <div className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">1</div>
                       <div>
                         <h4 className="font-medium">Connect Wallet</h4>
-                        <p className="text-sm text-muted-foreground">Connect MetaMask or compatible wallet to Sonic network</p>
+                        <p className="text-sm text-muted-foreground">Connect MetaMask or compatible wallet to BSC network</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">2</div>
                       <div>
-                        <h4 className="font-medium">Get Sonic Tokens</h4>
-                        <p className="text-sm text-muted-foreground">Acquire S tokens from faucet (testnet) or exchange (mainnet)</p>
+                        <h4 className="font-medium">Get BNB</h4>
+                        <p className="text-sm text-muted-foreground">Purchase BNB from any major exchange like Binance</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">3</div>
                       <div>
                         <h4 className="font-medium">Swap for HRT</h4>
-                        <p className="text-sm text-muted-foreground">Use DEX to swap S tokens for HR tokens</p>
+                        <p className="text-sm text-muted-foreground">Use PancakeSwap to swap BNB for HR tokens</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <div className="w-8 h-8 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-sm font-bold">4</div>
                       <div>
                         <h4 className="font-medium">Start Creating</h4>
-                        <p className="text-sm text-muted-foreground">Use HRT tokens to create AI agents in your dashboard</p>
+                        <p className="text-sm text-muted-foreground">Use HRT tokens to create AI agents with BSC efficiency</p>
                       </div>
                     </div>
                   </div>
@@ -540,18 +540,18 @@ const HRToken = () => {
                     <Button 
                       className="w-full justify-start" 
                       variant="outline"
-                      onClick={() => window.open('https://testnet.sonicscan.org/token/0x6a07f570FA8b1f197e168a8F75ffBBae7d6D8526', '_blank')}
+                      onClick={() => window.open('https://bscscan.com/token/0x742d35Cc6634C0532925a3b8D4C9db96DfbF3b6C', '_blank')}
                     >
                       <BarChart3 className="w-4 h-4 mr-2" />
-                      View on Explorer
+                      View on BSCScan
                     </Button>
                     <Button 
                       className="w-full justify-start" 
                       variant="outline"
-                      onClick={() => window.open('https://faucet.soniclabs.com/', '_blank')}
+                      onClick={() => window.open('https://www.binance.com/en/buy-BNB', '_blank')}
                     >
                       <Coins className="w-4 h-4 mr-2" />
-                      Get Testnet Tokens
+                      Buy BNB
                     </Button>
                     <Button className="w-full justify-start" variant="outline">
                       <Wallet className="w-4 h-4 mr-2" />
@@ -574,7 +574,7 @@ const HRToken = () => {
                   <Lock className="w-8 h-8 text-primary mx-auto mb-3" />
                   <h3 className="font-semibold mb-2">Smart Contract Security</h3>
                   <p className="text-sm text-muted-foreground">
-                    Audited smart contracts with multi-signature controls and emergency procedures
+                    BSC-audited smart contracts with multi-signature controls and emergency procedures
                   </p>
                 </div>
                 <div className="text-center p-6 border rounded-lg">
@@ -587,8 +587,8 @@ const HRToken = () => {
                 <div className="text-center p-6 border rounded-lg">
                   <CheckCircle className="w-8 h-8 text-green-600 mx-auto mb-3" />
                   <h3 className="font-semibold mb-2">Transparency</h3>
-                  <p className="text-sm text-muted-foreground">
-                    All transactions and token movements are publicly verifiable on the blockchain
+                    BSC infrastructure enables global deployment with 
+                    All transactions and token movements are publicly verifiable on BSCScan
                   </p>
                 </div>
               </div>
@@ -601,7 +601,7 @@ const HRToken = () => {
               <h2 className="text-3xl font-bold mb-4">Ready to Join the HR Revolution?</h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
                 Purchase HR tokens today and start creating intelligent AI agents that transform 
-                your employee onboarding experience.
+                your employee onboarding experience on BSC.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button onClick={openDEX} variant="hero" size="xl" className="group">
@@ -615,7 +615,7 @@ const HRToken = () => {
                 </Button>
               </div>
               <p className="text-sm text-muted-foreground mt-6">
-                <strong>Contract Address:</strong> 0x6a07f570FA8b1f197e168a8F75ffBBae7d6D8526 • Sonic Testnet
+                <strong>Contract Address:</strong> 0x742d35Cc6634C0532925a3b8D4C9db96DfbF3b6C • BSC Mainnet
               </p>
             </CardContent>
           </Card>

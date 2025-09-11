@@ -29,7 +29,7 @@ A comprehensive backend system for creating and managing AI-powered HR onboardin
 - **Framework**: Express.js
 - **Database**: MongoDB with Mongoose
 - **AI**: Google Gemini Pro via Eliza OS orchestration
-- **Blockchain**: Sonic (BSC-compatible) with ethers.js
+- **Blockchain**: Binance Smart Chain (BSC) with ethers.js
 - **Authentication**: JWT tokens
 - **Validation**: Joi schema validation
 
@@ -38,7 +38,7 @@ A comprehensive backend system for creating and managing AI-powered HR onboardin
 - Node.js 18.0.0 or higher
 - MongoDB 5.0 or higher
 - Google Gemini API key
-- Sonic blockchain wallet with testnet/mainnet access
+- BSC wallet with BNB for gas fees
 
 ## ⚙️ Environment Setup
 
@@ -69,12 +69,12 @@ JWT_EXPIRES_IN=7d
 # Google Gemini API
 GEMINI_API_KEY=your-gemini-api-key-here
 
-# Blockchain Configuration (Sonic)
-BLOCKCHAIN_NETWORK=testnet
-SONIC_TESTNET_RPC_URL=https://rpc.testnet.soniclabs.com
-SONIC_MAINNET_RPC_URL=https://rpc.soniclabs.com
-CONTRACT_ADDRESS_TESTNET=0x1234567890123456789012345678901234567890
-CONTRACT_ADDRESS_MAINNET=0x0987654321098765432109876543210987654321
+# Blockchain Configuration (BSC)
+BLOCKCHAIN_NETWORK=bsc
+BSC_MAINNET_RPC_URL=https://bsc-dataseed1.binance.org
+BSC_TESTNET_RPC_URL=https://data-seed-prebsc-1-s1.binance.org:8545
+CONTRACT_ADDRESS_BSC_MAINNET=0x742d35Cc6634C0532925a3b8D4C9db96DfbF3b6C
+CONTRACT_ADDRESS_BSC_TESTNET=0x1234567890123456789012345678901234567890
 PRIVATE_KEY=your-wallet-private-key-here
 
 # CORS Configuration
@@ -139,8 +139,8 @@ The server will start on `http://localhost:5000` (or your configured PORT).
 
 1. **Admin/HR creates agent** via `POST /api/agents`
 2. **Eliza OS orchestration** processes agent configuration
-3. **Blockchain registration** records agent on Sonic network
-4. **Database storage** saves agent with blockchain transaction hash
+3. **BSC registration** records agent on Binance Smart Chain
+4. **Database storage** saves agent with BSC transaction hash
 5. **Employee assignment** links agents to specific employees
 6. **AI conversations** use Eliza OS + Gemini for responses
 
@@ -180,8 +180,8 @@ POST /api/agents
 - `getAgentsByCreator(creator)` - Get agents by creator address
 
 ### Network Configuration
-- **Testnet**: Use for development and testing
-- **Mainnet**: Use for production deployment
+- **BSC Testnet**: Use for development and testing
+- **BSC Mainnet**: Use for production deployment
 
 Switch networks by updating `BLOCKCHAIN_NETWORK` environment variable.
 
@@ -291,15 +291,15 @@ export const useAgent = (agentId, token) => {
 ```javascript
 // config/blockchain.js
 const getBlockchainConfig = () => {
-  const network = process.env.BLOCKCHAIN_NETWORK || 'testnet';
+  const network = process.env.BLOCKCHAIN_NETWORK || 'bsc';
   
   return {
-    rpcUrl: network === 'mainnet' 
-      ? process.env.SONIC_MAINNET_RPC_URL 
-      : process.env.SONIC_TESTNET_RPC_URL,
-    contractAddress: network === 'mainnet'
-      ? process.env.CONTRACT_ADDRESS_MAINNET
-      : process.env.CONTRACT_ADDRESS_TESTNET
+    rpcUrl: network === 'bsc' 
+      ? process.env.BSC_MAINNET_RPC_URL 
+      : process.env.BSC_TESTNET_RPC_URL,
+    contractAddress: network === 'bsc'
+      ? process.env.CONTRACT_ADDRESS_BSC_MAINNET
+      : process.env.CONTRACT_ADDRESS_BSC_TESTNET
   };
 };
 ```
@@ -337,7 +337,7 @@ GET /api/admin/blockchain/status
 
 ### Common Issues
 
-1. **Blockchain Connection Failed**
+1. **BSC Connection Failed**
    - Check RPC URL and network configuration
    - Verify wallet has sufficient balance
    - Ensure contract address is correct

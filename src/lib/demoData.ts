@@ -158,15 +158,15 @@ export const demoHRTokenInfo: DemoHRTokenInfo = {
   symbol: 'HRT',
   decimals: 18,
   totalSupply: '1000000.0',
-  contractAddress: '0x6a07f570FA8b1f197e168a8F75ffBBae7d6D8526',
-  network: 'testnet'
+  contractAddress: '0x742d35Cc6634C0532925a3b8D4C9db96DfbF3b6C',
+  network: 'bsc'
 };
 
 // Demo token status
 export const demoTokenStatus = {
-  network: 'testnet',
-  rpcUrl: 'https://rpc.testnet.soniclabs.com',
-  tokenAddress: '0x6a07f570FA8b1f197e168a8F75ffBBae7d6D8526',
+  network: 'bsc',
+  rpcUrl: 'https://bsc-dataseed1.binance.org',
+  tokenAddress: '0x742d35Cc6634C0532925a3b8D4C9db96DfbF3b6C',
   walletAddress: '0x742d35Cc6634C0532925a3b8D4C9db96DfbF3b6C',
   connected: true,
   balance: '50000.0',
@@ -195,9 +195,9 @@ export const demoDashboardStats = {
     avgSatisfactionScore: 4.7
   },
   blockchain: {
-    network: 'testnet',
+    network: 'bsc',
     status: 'connected',
-    contractAddress: '0x6a07f570FA8b1f197e168a8F75ffBBae7d6D8526'
+    contractAddress: '0x742d35Cc6634C0532925a3b8D4C9db96DfbF3b6C'
   }
 };
 

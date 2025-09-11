@@ -18,9 +18,9 @@ export const TokenPurchaseWidget = () => {
   const [walletAddress, setWalletAddress] = useState('');
   const [purchaseAmount, setPurchaseAmount] = useState('');
 
-  const tokenContractAddress = '0x6a07f570FA8b1f197e168a8F75ffBBae7d6D8526';
-  const sonicTestnetRPC = 'https://rpc.testnet.soniclabs.com';
-  const chainId = '64165'; // Sonic testnet chain ID
+  const tokenContractAddress = '0x742d35Cc6634C0532925a3b8D4C9db96DfbF3b6C';
+  const bscMainnetRPC = 'https://bsc-dataseed1.binance.org';
+  const chainId = '56'; // BSC mainnet chain ID
 
   const copyToClipboard = (text: string) => {
     navigator.clipboard.writeText(text);
@@ -29,19 +29,19 @@ export const TokenPurchaseWidget = () => {
   const addToMetaMask = async () => {
     if (typeof window.ethereum !== 'undefined') {
       try {
-        // Add Sonic testnet to MetaMask
+        // Add BSC mainnet to MetaMask
         await window.ethereum.request({
           method: 'wallet_addEthereumChain',
           params: [{
             chainId: `0x${parseInt(chainId).toString(16)}`,
-            chainName: 'Sonic Testnet',
+            chainName: 'Binance Smart Chain',
             nativeCurrency: {
-              name: 'Sonic',
-              symbol: 'S',
+              name: 'BNB',
+              symbol: 'BNB',
               decimals: 18
             },
-            rpcUrls: [sonicTestnetRPC],
-            blockExplorerUrls: ['https://testnet.sonicscan.org/']
+            rpcUrls: [bscMainnetRPC],
+            blockExplorerUrls: ['https://bscscan.com/']
           }]
         });
 
@@ -66,7 +66,7 @@ export const TokenPurchaseWidget = () => {
 
   const openDEX = () => {
     // Open DEX with HR token contract pre-filled
-    const dexUrl = `https://app.uniswap.org/#/swap?chain=sonic_testnet&outputCurrency=${tokenContractAddress}`;
+    const dexUrl = `https://pancakeswap.finance/swap?outputCurrency=${tokenContractAddress}`;
     window.open(dexUrl, '_blank');
   };
 
@@ -103,7 +103,7 @@ export const TokenPurchaseWidget = () => {
           <div>
             <Label className="text-sm font-medium">Network</Label>
             <div className="flex items-center gap-2 mt-1">
-              <Badge variant="secondary">Sonic Testnet</Badge>
+              <Badge variant="secondary">Binance Smart Chain</Badge>
               <Badge variant="outline">Chain ID: {chainId}</Badge>
             </div>
           </div>
@@ -118,7 +118,7 @@ export const TokenPurchaseWidget = () => {
               variant="default"
             >
               <ExternalLink className="w-6 h-6 mb-2" />
-              <span className="text-sm">Buy on DEX</span>
+              <span className="text-sm">Buy on PancakeSwap</span>
             </Button>
             <Button 
               onClick={addToMetaMask}
@@ -166,9 +166,9 @@ export const TokenPurchaseWidget = () => {
           <AlertDescription>
             <strong>How to purchase:</strong>
             <ol className="list-decimal list-inside mt-2 space-y-1 text-sm">
-              <li>Connect your wallet to Sonic testnet</li>
-              <li>Get testnet S tokens from the faucet</li>
-              <li>Use a DEX to swap S tokens for HR tokens</li>
+              <li>Connect your wallet to Binance Smart Chain</li>
+              <li>Get BNB from any major exchange</li>
+              <li>Use PancakeSwap to swap BNB for HR tokens</li>
               <li>Your tokens will appear in your admin dashboard</li>
             </ol>
           </AlertDescription>
@@ -179,18 +179,18 @@ export const TokenPurchaseWidget = () => {
           <Button 
             variant="outline" 
             size="sm"
-            onClick={() => window.open('https://testnet.sonicscan.org/', '_blank')}
+            onClick={() => window.open('https://bscscan.com/', '_blank')}
           >
             <ExternalLink className="w-4 h-4 mr-2" />
-            Sonic Explorer
+            BSCScan Explorer
           </Button>
           <Button 
             variant="outline" 
             size="sm"
-            onClick={() => window.open('https://faucet.soniclabs.com/', '_blank')}
+            onClick={() => window.open('https://www.binance.com/en/buy-BNB', '_blank')}
           >
             <ExternalLink className="w-4 h-4 mr-2" />
-            Testnet Faucet
+            Buy BNB
           </Button>
         </div>
       </CardContent>

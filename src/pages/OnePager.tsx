@@ -145,13 +145,13 @@ const OnePager = () => {
                   </div>
                   <h3 className="text-lg font-semibold mb-2">Blockchain Layer</h3>
                   <p className="text-sm text-muted-foreground mb-3">
-                    Sonic network provides fast, secure, and cost-effective transactions
+                    Binance Smart Chain provides lightning-fast, secure, and ultra-low-cost transactions
                   </p>
                   <ul className="text-xs text-muted-foreground space-y-1">
-                    <li>• Immutable record keeping</li>
+                    <li>• BSC immutable record keeping</li>
                     <li>• Smart contract automation</li>
-                    <li>• Low transaction fees</li>
-                    <li>• Transparent operations</li>
+                    <li>• Ultra-low BSC fees (~$0.01)</li>
+                    <li>• Transparent BSC operations</li>
                   </ul>
                 </div>
 
@@ -161,13 +161,13 @@ const OnePager = () => {
                   </div>
                   <h3 className="text-lg font-semibold mb-2">Token Economy</h3>
                   <p className="text-sm text-muted-foreground mb-3">
-                    HR tokens enable pay-per-use model for creating and managing AI agents
+                    HR tokens on BSC enable pay-per-use model for creating and managing AI agents
                   </p>
                   <ul className="text-xs text-muted-foreground space-y-1">
-                    <li>• Transparent pricing model</li>
+                    <li>• Transparent BSC pricing model</li>
                     <li>• No monthly subscriptions</li>
-                    <li>• Scalable cost structure</li>
-                    <li>• Blockchain-verified transactions</li>
+                    <li>• Ultra-low BSC transaction costs</li>
+                    <li>• BSC-verified transactions</li>
                   </ul>
                 </div>
               </div>
@@ -423,14 +423,14 @@ const OnePager = () => {
                       <Globe className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" />
                       <div>
                         <p className="font-medium">Scalable Solution</p>
-                        <p className="text-sm text-muted-foreground">Grows with your organization from startup to enterprise</p>
+                        <p className="text-sm text-muted-foreground">BSC scalability grows with your organization</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
                       <Shield className="w-5 h-5 text-purple-600 mt-0.5 shrink-0" />
                       <div>
                         <p className="font-medium">Enterprise Security</p>
-                        <p className="text-sm text-muted-foreground">Blockchain-verified compliance and data protection</p>
+                        <p className="text-sm text-muted-foreground">BSC-verified compliance and data protection</p>
                       </div>
                     </li>
                   </ul>
@@ -445,7 +445,7 @@ const OnePager = () => {
               <h2 className="text-3xl font-bold mb-4">Ready to Transform HR?</h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
                 Join the future of employee onboarding with blockchain-powered AI agents. 
-                Start creating intelligent HR solutions today.
+                Start creating intelligent HR solutions on BSC today.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button variant="hero" size="xl" className="group">

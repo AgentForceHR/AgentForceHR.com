@@ -110,7 +110,7 @@ export const HRTokenManager = () => {
             </Button>
           </div>
           <CardDescription>
-            Sonic testnet HR token contract details and status
+            BSC mainnet HR token contract details and status
           </CardDescription>
         </CardHeader>
         <CardContent className="space-y-4">
@@ -138,7 +138,7 @@ export const HRTokenManager = () => {
                 <div>
                   <Label className="text-sm font-medium">Network</Label>
                   <div className="flex items-center gap-2">
-                    <Badge variant="secondary">{tokenInfo.network}</Badge>
+                    <Badge variant="secondary">Binance Smart Chain</Badge>
                   </div>
                 </div>
                 <div>
@@ -321,11 +321,11 @@ export const HRTokenManager = () => {
             <Button 
               variant="outline" 
               className="h-20 flex-col"
-              onClick={() => window.open(`https://testnet.sonicscan.org/token/${tokenInfo?.contractAddress}`, '_blank')}
+              onClick={() => window.open(`https://bscscan.com/token/${tokenInfo?.contractAddress}`, '_blank')}
               disabled={!tokenInfo?.contractAddress}
             >
               <ExternalLink className="w-6 h-6 mb-2" />
-              <span className="text-sm">View on Sonic Explorer</span>
+              <span className="text-sm">View on BSCScan</span>
             </Button>
             <Button 
               variant="outline" 

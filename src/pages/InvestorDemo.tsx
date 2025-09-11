@@ -182,7 +182,7 @@ const InvestorDemo = () => {
                 HR Token Integration
               </CardTitle>
               <CardDescription>
-                Blockchain-powered token system for AI agent creation and management
+                BSC-powered token system for AI agent creation and management
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -192,12 +192,12 @@ const InvestorDemo = () => {
                   <div className="space-y-3">
                     <div className="flex justify-between items-center">
                       <span className="text-sm font-medium">Network:</span>
-                      <Badge variant="secondary">Sonic Testnet</Badge>
+                      <Badge variant="secondary">Binance Smart Chain</Badge>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="text-sm font-medium">Contract:</span>
                       <code className="text-xs bg-muted px-2 py-1 rounded">
-                        0x6a07f570FA8b1f197e168a8F75ffBBae7d6D8526
+                        0x742d35Cc6634C0532925a3b8D4C9db96DfbF3b6C
                       </code>
                     </div>
                     <div className="flex justify-between items-center">
@@ -223,7 +223,7 @@ const InvestorDemo = () => {
                     </li>
                     <li className="flex items-center gap-2">
                       <BarChart3 className="w-4 h-4 text-primary" />
-                      Monitor token usage and analytics
+                      Monitor BSC token usage and analytics
                     </li>
                     <li className="flex items-center gap-2">
                       <Settings className="w-4 h-4 text-primary" />
@@ -298,8 +298,8 @@ const InvestorDemo = () => {
                     <li className="flex items-start gap-3">
                       <Coins className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                       <div>
-                        <p className="font-medium">Blockchain Integration</p>
-                        <p className="text-muted-foreground">See HR token management and blockchain features in action</p>
+                        <p className="font-medium">BSC Integration</p>
+                        <p className="text-muted-foreground">See HR token management and BSC features in action</p>
                       </div>
                     </li>
                   </ul>
