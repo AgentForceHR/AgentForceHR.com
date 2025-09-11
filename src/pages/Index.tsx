@@ -7,7 +7,7 @@ import { ChatDemo } from "@/components/chat-demo";
 import { FeatureCard } from "@/components/feature-card";
 import { Link } from "react-router-dom";
 
-import heroImage from "@/assets/hero-option-3.jpg";
+import heroImage from "@/assets/hero-ai-automation.png";
 import featureDocuments from "@/assets/feature-documents.jpg";
 import featureScheduling from "@/assets/feature-scheduling.jpg";
 import featureTraining from "@/assets/feature-training.jpg";
