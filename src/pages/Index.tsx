@@ -37,7 +37,7 @@ const Index = () => {
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground">
-                Create secure blockchain-powered AI assistants that streamline onboarding and provide 24/7 support for new employees. Pay with HR tokens to build and deploy your custom agents.
+                Create secure blockchain-powered AI assistants that streamline onboarding and provide 24/7 support for new employees. Pay with HR tokens on BSC to build and deploy your custom agents.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Button variant="hero" size="xl" className="group">
@@ -157,7 +157,7 @@ const Index = () => {
               HR Token - Your Gateway to AI Agents
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Purchase HR tokens on the blockchain to create and deploy your custom AI agents
+              Purchase HR tokens on Binance Smart Chain to create and deploy your custom AI agents
             </p>
           </div>
           <div className="container mx-auto max-w-4xl">
@@ -168,7 +168,7 @@ const Index = () => {
                 </div>
                 <h3 className="text-2xl font-bold mb-2">HR Token Benefits</h3>
                 <p className="text-muted-foreground">
-                  Deployed on secure blockchain infrastructure for fast, low-cost transactions
+                  Deployed on Binance Smart Chain for lightning-fast, ultra-low-cost transactions
                 </p>
               </div>
               
@@ -189,7 +189,7 @@ const Index = () => {
                     </div>
                     <div>
                       <p className="font-medium">Blockchain Security</p>
-                      <p className="text-sm text-muted-foreground">Secure transactions on blockchain network</p>
+                      <p className="text-sm text-muted-foreground">Secure transactions on BSC network</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -198,7 +198,7 @@ const Index = () => {
                     </div>
                     <div>
                       <p className="font-medium">Low Transaction Fees</p>
-                      <p className="text-sm text-muted-foreground">Affordable blockchain transaction costs</p>
+                      <p className="text-sm text-muted-foreground">Ultra-low BSC transaction fees (~$0.01)</p>
                     </div>
                   </div>
                 </div>
@@ -209,7 +209,7 @@ const Index = () => {
                     </div>
                     <div>
                       <p className="font-medium">Advanced AI Integration</p>
-                      <p className="text-sm text-muted-foreground">Powered by cutting-edge AI framework</p>
+                      <p className="text-sm text-muted-foreground">Powered by Eliza OS and BSC infrastructure</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -218,7 +218,7 @@ const Index = () => {
                     </div>
                     <div>
                       <p className="font-medium">Token Balance Management</p>
-                      <p className="text-sm text-muted-foreground">Track usage in admin dashboard</p>
+                      <p className="text-sm text-muted-foreground">Real-time BSC balance tracking</p>
                     </div>
                   </div>
                   <div className="flex items-start gap-3">
@@ -227,7 +227,7 @@ const Index = () => {
                     </div>
                     <div>
                       <p className="font-medium">Scalable Solution</p>
-                      <p className="text-sm text-muted-foreground">Create unlimited agents with tokens</p>
+                      <p className="text-sm text-muted-foreground">BSC scalability for unlimited agents</p>
                     </div>
                   </div>
                 </div>
@@ -235,11 +235,11 @@ const Index = () => {
               
               <div className="text-center">
                 <Button variant="hero" size="xl" className="group">
-                  Buy HR Tokens on DEX
+                  Buy HR Tokens on BSC
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Button>
                 <p className="text-sm text-muted-foreground mt-4">
-                  Connect your wallet and purchase HR tokens to start creating AI agents
+                  Connect your BSC wallet and purchase HR tokens to start creating AI agents
                 </p>
               </div>
             </div>
@@ -388,7 +388,7 @@ const Index = () => {
               Compliance & Security by Design
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Our blockchain-powered platform ensures regulatory compliance while providing unmatched data security
+              Our BSC-powered platform ensures regulatory compliance while providing unmatched data security
             </p>
           </div>
           <div className="container mx-auto max-w-4xl">
@@ -440,7 +440,7 @@ const Index = () => {
                       <CheckCircle2 size={12} />
                     </div>
                     <p className="text-sm text-muted-foreground">
-                      <span className="font-medium text-foreground">Blockchain Verification:</span> Immutable record-keeping and transparent auditing.
+                      <span className="font-medium text-foreground">Blockchain Verification:</span> BSC immutable records and transparent auditing.
                     </p>
                   </li>
                   <li className="flex items-start gap-3">
@@ -473,16 +473,16 @@ const Index = () => {
                 Frequently Asked Questions
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Get answers to common questions about AgentForceHR
+                Get answers to common questions about AgentForceHR and BSC integration
               </p>
             </div>
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1">
                 <AccordionTrigger className="text-left text-xl font-bold">
-                  How do HR tokens work with the platform?
+                  How do HR tokens work on BSC?
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground">
-                  HR tokens are blockchain-based utility tokens that power our platform. Each token represents a unit of AI agent creation capability. HR professionals purchase tokens and use them to create custom onboarding agents. The tokens are stored in your secure wallet, and the balance is displayed in your admin dashboard. When you create a new agent, tokens are deducted from your balance automatically.
+                  HR tokens are BSC-based utility tokens that power our platform with ultra-low fees and fast transactions. Each token represents a unit of AI agent creation capability. HR professionals purchase tokens on BSC and use them to create custom onboarding agents. The tokens are stored in your BSC-compatible wallet, and the balance is displayed in your admin dashboard. When you create a new agent, tokens are deducted from your balance automatically with minimal gas fees.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="item-2">
@@ -514,7 +514,7 @@ const Index = () => {
                   What security measures are in place to protect sensitive employee data?
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground">
-                  Security is a core component of our platform. We implement multiple layers of protection including blockchain verification for immutable record-keeping, end-to-end encryption for all data, role-based access controls, regular security audits, and compliance with major security frameworks (SOC 2 Type II, GDPR, HIPAA where applicable). All sensitive employee information is encrypted at rest and in transit, with access strictly limited to authorized personnel within your organization.
+                  Security is a core component of our platform. We implement multiple layers of protection including BSC blockchain verification for immutable record-keeping, end-to-end encryption for all data, role-based access controls, regular security audits, and compliance with major security frameworks (SOC 2 Type II, GDPR, HIPAA where applicable). All sensitive employee information is encrypted at rest and in transit, with access strictly limited to authorized personnel within your organization.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
