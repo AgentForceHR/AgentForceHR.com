@@ -588,7 +588,6 @@ const HRToken = () => {
                   <p className="text-sm text-muted-foreground">
                     All transactions and token movements are publicly verifiable on BSCScan
                   </p>
-                  </p>
                 </div>
               </div>
             </CardContent>
