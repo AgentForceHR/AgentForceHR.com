@@ -588,7 +588,6 @@ const HRToken = () => {
                   <CheckCircle className="w-8 h-8 text-green-600 mx-auto mb-3" />
                     All transactions and token movements are publicly verifiable on BSCScan
                   </p>
-                  </p>
                 </div>
               </div>
             </CardContent>
