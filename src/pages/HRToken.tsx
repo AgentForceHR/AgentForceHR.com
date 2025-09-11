@@ -585,8 +585,9 @@ const HRToken = () => {
                   </p>
                 </div>
                 <div className="text-center p-6 border rounded-lg">
-                  <CheckCircle className="w-8 h-8 text-green-600 mx-auto mb-3" />
+                  <p className="text-sm text-muted-foreground">
                     All transactions and token movements are publicly verifiable on BSCScan
+                  </p>
                   </p>
                 </div>
               </div>
