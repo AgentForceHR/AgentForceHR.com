@@ -51,8 +51,8 @@ const Index = () => {
             </div>
             <div className="relative z-10 rounded-lg overflow-hidden shadow-lg">
               <img
-                src={heroImage}
-                alt="AI-powered employee onboarding"
+                src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800"
+                alt="Futuristic digital brain formed by glowing blue neural network nodes, AI technology, blockchain integration, abstract data streams"
                 className="w-full h-auto object-cover"
               />
             </div>
