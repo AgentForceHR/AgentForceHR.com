@@ -4,8 +4,8 @@ class HRTokenService {
   constructor() {
     this.network = process.env.BLOCKCHAIN_NETWORK || 'testnet';
     this.rpcUrl = this.network === 'mainnet' 
-      ? process.env.SONIC_MAINNET_RPC_URL 
-      : process.env.SONIC_TESTNET_RPC_URL;
+      ? process.env.BSC_MAINNET_RPC_URL 
+      : process.env.BSC_TESTNET_RPC_URL;
     
     this.tokenAddress = this.network === 'mainnet'
       ? process.env.HR_TOKEN_CONTRACT_MAINNET

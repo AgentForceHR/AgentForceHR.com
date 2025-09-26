@@ -6,19 +6,19 @@ This guide covers deploying the HR Agent backend system from testnet to mainnet 
 
 ### Testnet vs Mainnet
 
-The system supports both Sonic testnet and mainnet deployments through environment variables.
+The system supports both BSC testnet and mainnet deployments through environment variables.
 
 #### Testnet Configuration (Development/Staging)
 ```env
 BLOCKCHAIN_NETWORK=testnet
-SONIC_TESTNET_RPC_URL=https://rpc.testnet.soniclabs.com
+BSC_TESTNET_RPC_URL=https://data-seed-prebsc-1-s1.binance.org:8545
 CONTRACT_ADDRESS_TESTNET=0x1234567890123456789012345678901234567890
 ```
 
 #### Mainnet Configuration (Production)
 ```env
 BLOCKCHAIN_NETWORK=mainnet
-SONIC_MAINNET_RPC_URL=https://rpc.soniclabs.com
+BSC_MAINNET_RPC_URL=https://bsc-dataseed1.binance.org
 CONTRACT_ADDRESS_MAINNET=0x0987654321098765432109876543210987654321
 ```
 

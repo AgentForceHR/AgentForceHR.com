@@ -4,12 +4,12 @@ class BlockchainService {
   constructor() {
     this.network = process.env.BLOCKCHAIN_NETWORK || 'testnet';
     this.rpcUrl = this.network === 'mainnet' 
-      ? process.env.SONIC_MAINNET_RPC_URL 
-      : process.env.SONIC_TESTNET_RPC_URL;
+      ? process.env.BSC_MAINNET_RPC_URL 
+      : process.env.BSC_TESTNET_RPC_URL;
     
     this.contractAddress = this.network === 'mainnet'
-      ? process.env.CONTRACT_ADDRESS_MAINNET
-      : process.env.CONTRACT_ADDRESS_TESTNET;
+      ? process.env.CONTRACT_ADDRESS_BSC_MAINNET
+      : process.env.CONTRACT_ADDRESS_BSC_TESTNET;
 
     // Initialize provider
     this.provider = new ethers.JsonRpcProvider(this.rpcUrl);
