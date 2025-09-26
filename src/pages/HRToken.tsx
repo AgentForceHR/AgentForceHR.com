@@ -5,24 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
 import { Separator } from "@/components/ui/separator";
-import { 
-  Coins, 
-  Shield, 
-  Zap, 
-  TrendingUp, 
-  Users, 
-  Bot,
-  CheckCircle,
-  ArrowRight,
-  ExternalLink,
-  Wallet,
-  BarChart3,
-  Globe,
-  Lock,
-  Target,
-  Calendar,
-  DollarSign
-} from "lucide-react";
+import { Coins, Shield, Zap, TrendingUp, Users, Bot, CircleCheck as CheckCircle, ArrowRight, ExternalLink, Wallet, ChartBar as BarChart3, Globe, Lock, Target, Calendar, DollarSign } from "lucide-react";
 
 const HRToken = () => {
   const openDEX = () => {

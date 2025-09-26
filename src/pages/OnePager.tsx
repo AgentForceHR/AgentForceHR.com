@@ -4,22 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/progress";
-import { 
-  Bot, 
-  Shield, 
-  Coins, 
-  Users, 
-  TrendingUp, 
-  Zap,
-  CheckCircle,
-  ArrowRight,
-  Target,
-  Lightbulb,
-  Globe,
-  Award,
-  FileText,
-  Brain
-} from "lucide-react";
+import { Bot, Shield, Coins, Users, TrendingUp, Zap, CircleCheck as CheckCircle, ArrowRight, Target, Lightbulb, Globe, Award, FileText, Brain } from "lucide-react";
 
 const OnePager = () => {
   return (
