@@ -213,9 +213,9 @@ const HRToken = () => {
                     <div className="space-y-2">
                       <div className="flex justify-between items-center">
                         <span className="text-sm">Staking Rewards</span>
-                        <span className="font-semibold">20%</span>
+                        <span className="font-semibold">15%</span>
                       </div>
-                      <Progress value={20} className="h-2" />
+                      <Progress value={15} className="h-2" />
                       <p className="text-xs text-muted-foreground">Released after 3 months gradually</p>
                     </div>
                     <div className="space-y-2">
@@ -229,9 +229,9 @@ const HRToken = () => {
                     <div className="space-y-2">
                       <div className="flex justify-between items-center">
                         <span className="text-sm">Pre-sale</span>
-                        <span className="font-semibold">15%</span>
+                        <span className="font-semibold">30%</span>
                       </div>
-                      <Progress value={15} className="h-2" />
+                      <Progress value={30} className="h-2" />
                       <p className="text-xs text-muted-foreground">Available at TGE for early investors</p>
                     </div>
                     <div className="space-y-2">
@@ -241,14 +241,6 @@ const HRToken = () => {
                       </div>
                       <Progress value={10} className="h-2" />
                       <p className="text-xs text-muted-foreground">Released after 12 months for partnerships</p>
-                    </div>
-                    <div className="space-y-2">
-                      <div className="flex justify-between items-center">
-                        <span className="text-sm">Reserve Fund</span>
-                        <span className="font-semibold">10%</span>
-                      </div>
-                      <Progress value={10} className="h-2" />
-                      <p className="text-xs text-muted-foreground">Emergency fund released after 18 months</p>
                     </div>
                     <div className="space-y-2">
                       <div className="flex justify-between items-center">

@@ -185,7 +185,7 @@ const OnePager = () => {
                   <div className="text-3xl font-bold text-primary mb-2">1B</div>
                   <h3 className="font-semibold mb-2">Total HRT Supply</h3>
                   <p className="text-sm text-muted-foreground">
-                    Total token supply with deflationary mechanisms
+                    Total token supply: Treasury 25%, Staking 15%, Liquidity 15%, Pre-sale 30%, Enterprise 10%, Team 5%
                   </p>
                 </div>
                 <div className="text-center">
