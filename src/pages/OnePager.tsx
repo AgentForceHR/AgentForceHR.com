@@ -349,8 +349,8 @@ const OnePager = () => {
                 </div>
                 <div className="text-center p-4 border rounded-lg">
                   <Shield className="w-8 h-8 text-purple-600 mx-auto mb-3" />
-                  <h3 className="font-semibold mb-1">Sonic Network</h3>
-                  <p className="text-xs text-muted-foreground">Fast Blockchain</p>
+                  <h3 className="font-semibold mb-1">BSC Network</h3>
+                  <p className="text-xs text-muted-foreground">Binance Smart Chain</p>
                 </div>
                 <div className="text-center p-4 border rounded-lg">
                   <Coins className="w-8 h-8 text-orange-600 mx-auto mb-3" />
