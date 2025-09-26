@@ -11,7 +11,7 @@ import heroImage from "@/assets/hero-ai-automation.png";
 import featureDocuments from "@/assets/feature-documents.jpg";
 import featureScheduling from "@/assets/feature-scheduling.jpg";
 import featureTraining from "@/assets/feature-training.jpg";
-import { ArrowRight, Bot, CheckCircle2, FileCheck, DivideIcon as LucideIcon, Users, Zap, Shield, Eye } from "lucide-react";
+import { ArrowRight, Bot, CircleCheck as CheckCircle2, FileCheck, Divide as LucideIcon, Users, Zap, Shield, Eye } from "lucide-react";
 
 // Benefits icons
 const benefitsIcons: Record<string, LucideIcon> = {
