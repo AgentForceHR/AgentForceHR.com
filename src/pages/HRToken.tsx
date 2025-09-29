@@ -62,8 +62,8 @@ const HRToken = () => {
               </span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
-              The utility token powering the future of HR automation. Create AI agents, 
-              manage onboarding processes, and access premium features with blockchain-secured transactions.
+              The utility token powering the world's first privacy-first HR AI protocol. Create Ocean Protocol-powered AI agents 
+              that process sensitive employee data without exposure, ensuring complete privacy compliance with blockchain-secured transactions.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button onClick={openDEX} variant="hero" size="xl" className="group">
@@ -83,7 +83,7 @@ const HRToken = () => {
             <CardHeader>
               <CardTitle className="text-2xl">Token Overview</CardTitle>
               <CardDescription>
-                Essential information about the HR Token (HRT)
+                Essential information about the HR Token (HRT) - powering privacy-first AI agents
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -139,7 +139,7 @@ const HRToken = () => {
             <CardHeader>
               <CardTitle className="text-2xl">Token Use Cases</CardTitle>
               <CardDescription>
-                How HR tokens power the AgentForceHR ecosystem
+                How HR tokens power the privacy-first AgentForceHR ecosystem with Ocean Protocol
               </CardDescription>
             </CardHeader>
             <CardContent>
@@ -148,7 +148,7 @@ const HRToken = () => {
                   <Bot className="w-12 h-12 text-primary mx-auto mb-4" />
                   <h3 className="text-lg font-semibold mb-2">Agent Creation</h3>
                   <p className="text-sm text-muted-foreground mb-4">
-                    Use 100 HRT to create custom AI agents for employee onboarding
+                    Use 100 HRT to create privacy-first AI agents that process employee data through Ocean Protocol's secure compute
                   </p>
                   <Badge variant="default">100 HRT per agent</Badge>
                 </div>
@@ -156,7 +156,7 @@ const HRToken = () => {
                   <Zap className="w-12 h-12 text-secondary mx-auto mb-4" />
                   <h3 className="text-lg font-semibold mb-2">Premium Features</h3>
                   <p className="text-sm text-muted-foreground mb-4">
-                    Access advanced analytics, integrations, and customization options
+                    Access privacy-preserving analytics, secure integrations, and Ocean Protocol customization options
                   </p>
                   <Badge variant="secondary">Variable pricing</Badge>
                 </div>
@@ -164,7 +164,7 @@ const HRToken = () => {
                   <Users className="w-12 h-12 text-accent mx-auto mb-4" />
                   <h3 className="text-lg font-semibold mb-2">Enterprise Services</h3>
                   <p className="text-sm text-muted-foreground mb-4">
-                    Custom implementations and dedicated support packages
+                    Privacy-compliant custom implementations and dedicated Ocean Protocol support packages
                   </p>
                   <Badge variant="outline">Custom rates</Badge>
                 </div>
@@ -573,13 +573,13 @@ const HRToken = () => {
             <CardContent className="text-center py-12">
               <h2 className="text-3xl font-bold mb-4">Ready to Join the HR Revolution?</h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Purchase HR tokens today and start creating intelligent AI agents that transform 
-                your employee onboarding experience on BSC.
+                Purchase HR tokens today and start creating privacy-first AI agents powered by Ocean Protocol that transform 
+                your employee onboarding experience while ensuring complete data protection on BSC.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button onClick={openDEX} variant="hero" size="xl" className="group">
                   <Coins className="w-5 h-5 mr-2" />
-                  Buy HR Tokens Now
+                  Buy Privacy-First Tokens
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Button>
                 <Button variant="outline-primary" size="xl">
