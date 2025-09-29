@@ -630,24 +630,24 @@ const Whitepaper = () => {
               <div className="space-y-8">
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="space-y-6">
-                    <h3 className="text-xl font-semibold">Phase 1: Foundation (Q1 2025)</h3>
+                    <h3 className="text-xl font-semibold">Phase 1: Foundation (Q4 2025)</h3>
                     <ul className="space-y-3">
                       <li className="flex items-start gap-3">
-                        <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
+                        <div className="w-5 h-5 rounded-full border-2 border-primary mt-0.5 shrink-0" />
                         <div>
                           <p className="font-medium">Core Platform Launch</p>
                           <p className="text-sm text-muted-foreground">MVP with basic agent creation and BSC integration</p>
                         </div>
                       </li>
                       <li className="flex items-start gap-3">
-                        <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
+                        <div className="w-5 h-5 rounded-full border-2 border-primary mt-0.5 shrink-0" />
                         <div>
                           <p className="font-medium">HR Token Distribution</p>
                           <p className="text-sm text-muted-foreground">Initial token sale and DEX listing</p>
                         </div>
                       </li>
                       <li className="flex items-start gap-3">
-                        <CheckCircle className="w-5 h-5 text-green-500 mt-0.5 shrink-0" />
+                        <div className="w-5 h-5 rounded-full border-2 border-primary mt-0.5 shrink-0" />
                         <div>
                           <p className="font-medium">Beta Customer Onboarding</p>
                           <p className="text-sm text-muted-foreground">First 100 enterprise customers</p>
@@ -656,7 +656,7 @@ const Whitepaper = () => {
                     </ul>
                   </div>
                   <div className="space-y-6">
-                    <h3 className="text-xl font-semibold">Phase 2: Scale (Q2-Q3 2025)</h3>
+                    <h3 className="text-xl font-semibold">Phase 2: Scale (Q1-Q2 2026)</h3>
                     <ul className="space-y-3">
                       <li className="flex items-start gap-3">
                         <div className="w-5 h-5 rounded-full border-2 border-primary mt-0.5 shrink-0" />
@@ -684,7 +684,7 @@ const Whitepaper = () => {
                 </div>
                 <div className="grid md:grid-cols-2 gap-8">
                   <div className="space-y-6">
-                    <h3 className="text-xl font-semibold">Phase 3: Ecosystem (Q4 2025)</h3>
+                    <h3 className="text-xl font-semibold">Phase 3: Ecosystem (Q4 2026)</h3>
                     <ul className="space-y-3">
                       <li className="flex items-start gap-3">
                         <div className="w-5 h-5 rounded-full border-2 border-muted-foreground mt-0.5 shrink-0" />
@@ -710,7 +710,7 @@ const Whitepaper = () => {
                     </ul>
                   </div>
                   <div className="space-y-6">
-                    <h3 className="text-xl font-semibold">Phase 4: Expansion (2026+)</h3>
+                    <h3 className="text-xl font-semibold">Phase 4: Expansion (2027+)</h3>
                     <ul className="space-y-3">
                       <li className="flex items-start gap-3">
                         <div className="w-5 h-5 rounded-full border-2 border-muted-foreground mt-0.5 shrink-0" />
