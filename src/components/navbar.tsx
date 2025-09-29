@@ -24,6 +24,9 @@ export function Navbar() {
               <span className="text-2xl font-bold tracking-tight bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
                 AgentForceHR
               </span>
+              <Badge variant="outline" className="text-xs ml-2 border-primary/30 text-primary">
+                Privacy-First
+              </Badge>
             </div>
           </Link>
           <nav className="hidden lg:flex gap-6">
@@ -113,6 +116,9 @@ export function Navbar() {
                     <span className="text-xl font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
                       AgentForceHR
                     </span>
+                    <Badge variant="outline" className="text-xs ml-2 border-primary/30 text-primary">
+                      Privacy-First
+                    </Badge>
                   </Link>
                 </SheetTitle>
               </SheetHeader>

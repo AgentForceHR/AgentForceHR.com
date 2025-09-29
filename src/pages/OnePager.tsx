@@ -18,14 +18,14 @@ const OnePager = () => {
               One-Page Project Overview
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              AgentForceHR{" "}
+              AgentForceHR Privacy-First{" "}
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                 Project Overview
               </span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Revolutionizing employee onboarding with blockchain-powered AI agents that provide 
-              secure, scalable, and intelligent HR automation solutions.
+              Revolutionizing employee onboarding with the world's first privacy-first HR AI protocol using Ocean Protocol's 
+              Compute-to-Data technology to provide secure, scalable, and intelligent HR automation without data exposure.
             </p>
           </div>
 
@@ -40,8 +40,8 @@ const OnePager = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-muted-foreground">
-                  Employee onboarding is broken. Traditional processes are inefficient, 
-                  inconsistent, and fail to engage new hires effectively.
+                  Employee onboarding is broken and exposes sensitive data to privacy risks. Traditional processes are inefficient, 
+                  inconsistent, and compromise employee data security while failing to engage new hires effectively.
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start gap-2">
@@ -50,15 +50,15 @@ const OnePager = () => {
                   </li>
                   <li className="flex items-start gap-2">
                     <div className="w-2 h-2 rounded-full bg-red-500 mt-2 shrink-0" />
-                    <span>HR teams spend 40+ hours per new hire on repetitive tasks</span>
+                    <span>HR teams expose sensitive data to privacy risks during manual processing</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <div className="w-2 h-2 rounded-full bg-red-500 mt-2 shrink-0" />
-                    <span>Inconsistent information delivery causes confusion and delays</span>
+                    <span>Traditional AI solutions require uploading confidential employee data to external servers</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <div className="w-2 h-2 rounded-full bg-red-500 mt-2 shrink-0" />
-                    <span>Limited scalability for growing organizations</span>
+                    <span>No privacy-by-design solutions for regulatory compliance</span>
                   </li>
                 </ul>
               </CardContent>
@@ -73,25 +73,26 @@ const OnePager = () => {
               </CardHeader>
               <CardContent className="space-y-4">
                 <p className="text-muted-foreground">
-                  AgentForceHR creates intelligent AI agents that automate onboarding while 
-                  providing personalized, secure, and scalable HR support.
+                  AgentForceHR creates the world's first privacy-first HR AI protocol using Ocean Protocol's Compute-to-Data 
+                  technology. Our AI agents process sensitive employee data without ever accessing raw files, providing 
+                  personalized, secure, and scalable HR support with complete privacy protection.
                 </p>
                 <ul className="space-y-2 text-sm">
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
-                    <span>60% reduction in onboarding time through automation</span>
+                    <span>60% reduction in onboarding time through privacy-preserving automation</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
-                    <span>85% improvement in HR team efficiency</span>
+                    <span>85% improvement in HR efficiency with zero data exposure risk</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
-                    <span>24/7 intelligent support with consistent information</span>
+                    <span>24/7 privacy-protected intelligent support with consistent information</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-4 h-4 text-green-500 mt-0.5 shrink-0" />
-                    <span>Blockchain security ensures data integrity and compliance</span>
+                    <span>Ocean Protocol ensures complete data privacy and regulatory compliance</span>
                   </li>
                 </ul>
               </CardContent>
@@ -110,33 +111,33 @@ const OnePager = () => {
               <div className="grid md:grid-cols-3 gap-8">
                 <div className="text-center">
                   <div className="w-20 h-20 rounded-xl bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                    <Brain className="w-10 h-10 text-primary" />
+                    <Shield className="w-10 h-10 text-primary" />
                   </div>
-                  <h3 className="text-lg font-semibold mb-2">AI Layer</h3>
+                  <h3 className="text-lg font-semibold mb-2">Privacy Layer</h3>
                   <p className="text-sm text-muted-foreground mb-3">
-                    Eliza OS framework orchestrates Google Gemini AI for natural conversations
+                    Ocean Protocol C2D ensures AI processing without raw data access for complete privacy
                   </p>
                   <ul className="text-xs text-muted-foreground space-y-1">
-                    <li>• Natural language processing</li>
-                    <li>• Context-aware responses</li>
-                    <li>• Continuous learning</li>
-                    <li>• Multi-language support</li>
+                    <li>• Zero-knowledge data processing</li>
+                    <li>• Privacy-preserving context analysis</li>
+                    <li>• Federated learning for privacy</li>
+                    <li>• Secure multi-language support</li>
                   </ul>
                 </div>
 
                 <div className="text-center">
                   <div className="w-20 h-20 rounded-xl bg-secondary/10 flex items-center justify-center mx-auto mb-4">
-                    <Shield className="w-10 h-10 text-secondary" />
+                    <Brain className="w-10 h-10 text-secondary" />
                   </div>
-                  <h3 className="text-lg font-semibold mb-2">Blockchain Layer</h3>
+                  <h3 className="text-lg font-semibold mb-2">AI Layer</h3>
                   <p className="text-sm text-muted-foreground mb-3">
-                    Binance Smart Chain provides lightning-fast, secure, and ultra-low-cost transactions
+                    Eliza OS framework with Ocean Protocol integration for privacy-preserving AI conversations
                   </p>
                   <ul className="text-xs text-muted-foreground space-y-1">
-                    <li>• BSC immutable record keeping</li>
-                    <li>• Smart contract automation</li>
-                    <li>• Ultra-low BSC fees (~$0.01)</li>
-                    <li>• Transparent BSC operations</li>
+                    <li>• Privacy-preserving language models</li>
+                    <li>• Secure conversation orchestration</li>
+                    <li>• Context-aware privacy protection</li>
+                    <li>• Compliant AI response generation</li>
                   </ul>
                 </div>
 
@@ -146,13 +147,13 @@ const OnePager = () => {
                   </div>
                   <h3 className="text-lg font-semibold mb-2">Token Economy</h3>
                   <p className="text-sm text-muted-foreground mb-3">
-                    HR tokens on BSC enable pay-per-use model for creating and managing AI agents
+                    HR tokens on BSC enable pay-per-use model for creating privacy-first AI agents with Ocean Protocol
                   </p>
                   <ul className="text-xs text-muted-foreground space-y-1">
-                    <li>• Transparent BSC pricing model</li>
+                    <li>• Privacy-first transparent pricing</li>
                     <li>• No monthly subscriptions</li>
                     <li>• Ultra-low BSC transaction costs</li>
-                    <li>• BSC-verified transactions</li>
+                    <li>• Privacy-protected verified transactions</li>
                   </ul>
                 </div>
               </div>
@@ -182,9 +183,9 @@ const OnePager = () => {
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-accent mb-2">$0.0005</div>
-                  <h3 className="font-semibold mb-2">HR Software Market</h3>
+                  <h3 className="font-semibold mb-2">Initial Token Price</h3>
                   <p className="text-sm text-muted-foreground">
-                    Global HR software market size in 2024, growing at 10.4% CAGR
+                    Starting price for privacy-first HR automation tokens
                   </p>
                 </div>
               </div>
@@ -207,11 +208,11 @@ const OnePager = () => {
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-lg">Platform Launch</h3>
-                    <p className="text-muted-foreground mb-2">Core platform with basic AI agent creation</p>
+                    <p className="text-muted-foreground mb-2">Privacy-first platform with Ocean Protocol C2D integration</p>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="secondary">MVP Release</Badge>
+                      <Badge variant="secondary">Privacy-First MVP</Badge>
                       <Badge variant="secondary">HR Token Launch</Badge>
-                      <Badge variant="secondary">Beta Testing</Badge>
+                      <Badge variant="secondary">Ocean Protocol Integration</Badge>
                     </div>
                   </div>
                 </div>
@@ -222,11 +223,11 @@ const OnePager = () => {
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-lg">Enterprise Features</h3>
-                    <p className="text-muted-foreground mb-2">Advanced features for large organizations</p>
+                    <p className="text-muted-foreground mb-2">Privacy-enhanced features for large organizations</p>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="secondary">HRIS Integration</Badge>
-                      <Badge variant="secondary">Advanced Analytics</Badge>
-                      <Badge variant="secondary">Multi-tenant Support</Badge>
+                      <Badge variant="secondary">Privacy-First HRIS Integration</Badge>
+                      <Badge variant="secondary">Zero-Knowledge Analytics</Badge>
+                      <Badge variant="secondary">Secure Multi-tenant Support</Badge>
                     </div>
                   </div>
                 </div>
@@ -237,11 +238,11 @@ const OnePager = () => {
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-lg">AI Enhancement</h3>
-                    <p className="text-muted-foreground mb-2">Next-generation AI capabilities and personalization</p>
+                    <p className="text-muted-foreground mb-2">Next-generation privacy-preserving AI capabilities</p>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="secondary">Advanced AI Models</Badge>
-                      <Badge variant="secondary">Predictive Analytics</Badge>
-                      <Badge variant="secondary">Voice Integration</Badge>
+                      <Badge variant="secondary">Privacy-Preserving AI Models</Badge>
+                      <Badge variant="secondary">Anonymous Predictive Analytics</Badge>
+                      <Badge variant="secondary">Secure Voice Integration</Badge>
                     </div>
                   </div>
                 </div>
@@ -252,11 +253,11 @@ const OnePager = () => {
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-lg">Global Expansion</h3>
-                    <p className="text-muted-foreground mb-2">International markets and compliance frameworks</p>
+                    <p className="text-muted-foreground mb-2">Global privacy compliance and Ocean Protocol expansion</p>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="secondary">Global Compliance</Badge>
-                      <Badge variant="secondary">Multi-language AI</Badge>
-                      <Badge variant="secondary">Regional Partnerships</Badge>
+                      <Badge variant="secondary">Global Privacy Compliance</Badge>
+                      <Badge variant="secondary">Privacy-First Multi-language AI</Badge>
+                      <Badge variant="secondary">Ocean Protocol Partnerships</Badge>
                     </div>
                   </div>
                 </div>
@@ -282,6 +283,7 @@ const OnePager = () => {
                     <h3 className="font-semibold">Cristian Lantadilla</h3>
                     <p className="text-sm text-muted-foreground">CEO & Co-Founder</p>
                     <p className="text-xs text-muted-foreground">10 years blockchain & AI experience</p>
+                    <p className="text-xs text-muted-foreground">Ocean Protocol privacy expert</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
@@ -292,6 +294,7 @@ const OnePager = () => {
                     <h3 className="font-semibold">Renato Ortega</h3>
                     <p className="text-sm text-muted-foreground">Co-Founder & HR Specialist</p>
                     <p className="text-xs text-muted-foreground">8+ years HR and talent development</p>
+                    <p className="text-xs text-muted-foreground">Privacy compliance specialist</p>
                   </div>
                 </div>
               </CardContent>
@@ -374,22 +377,22 @@ const OnePager = () => {
                     <li className="flex items-start gap-3">
                       <Coins className="w-5 h-5 text-primary mt-0.5 shrink-0" />
                       <div>
-                        <p className="font-medium">HR Token Sales</p>
-                        <p className="text-sm text-muted-foreground">Primary revenue from token purchases for agent creation</p>
+                        <p className="font-medium">Privacy-First Token Sales</p>
+                        <p className="text-sm text-muted-foreground">Primary revenue from tokens enabling Ocean Protocol-powered agent creation</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
                       <Users className="w-5 h-5 text-secondary mt-0.5 shrink-0" />
                       <div>
-                        <p className="font-medium">Enterprise Licensing</p>
-                        <p className="text-sm text-muted-foreground">Custom solutions and dedicated support for large organizations</p>
+                        <p className="font-medium">Privacy-Compliant Enterprise Licensing</p>
+                        <p className="text-sm text-muted-foreground">Custom privacy-first solutions and Ocean Protocol support for large organizations</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
                       <Zap className="w-5 h-5 text-accent mt-0.5 shrink-0" />
                       <div>
-                        <p className="font-medium">Premium Features</p>
-                        <p className="text-sm text-muted-foreground">Advanced analytics, integrations, and customization options</p>
+                        <p className="font-medium">Privacy-Enhanced Premium Features</p>
+                        <p className="text-sm text-muted-foreground">Zero-knowledge analytics, secure integrations, and Ocean Protocol customization</p>
                       </div>
                     </li>
                   </ul>
@@ -400,22 +403,22 @@ const OnePager = () => {
                     <li className="flex items-start gap-3">
                       <TrendingUp className="w-5 h-5 text-green-600 mt-0.5 shrink-0" />
                       <div>
-                        <p className="font-medium">Measurable ROI</p>
-                        <p className="text-sm text-muted-foreground">Quantifiable improvements in efficiency and cost reduction</p>
+                        <p className="font-medium">Privacy-Protected ROI</p>
+                        <p className="text-sm text-muted-foreground">Quantifiable improvements while ensuring complete employee data protection</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
                       <Globe className="w-5 h-5 text-blue-600 mt-0.5 shrink-0" />
                       <div>
-                        <p className="font-medium">Scalable Solution</p>
-                        <p className="text-sm text-muted-foreground">BSC scalability grows with your organization</p>
+                        <p className="font-medium">Privacy-First Scalability</p>
+                        <p className="text-sm text-muted-foreground">Ocean Protocol privacy infrastructure scales with your organization</p>
                       </div>
                     </li>
                     <li className="flex items-start gap-3">
                       <Shield className="w-5 h-5 text-purple-600 mt-0.5 shrink-0" />
                       <div>
-                        <p className="font-medium">Enterprise Security</p>
-                        <p className="text-sm text-muted-foreground">BSC-verified compliance and data protection</p>
+                        <p className="font-medium">Privacy-by-Design Architecture</p>
+                        <p className="text-sm text-muted-foreground">Ocean Protocol-verified privacy and regulatory compliance</p>
                       </div>
                     </li>
                   </ul>
@@ -429,16 +432,16 @@ const OnePager = () => {
             <CardContent className="text-center py-12">
               <h2 className="text-3xl font-bold mb-4">Ready to Transform HR?</h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Join the future of employee onboarding with blockchain-powered AI agents. 
-                Start creating intelligent HR solutions on BSC today.
+                Join the future of privacy-first employee onboarding with Ocean Protocol-powered AI agents. 
+                Start creating intelligent, privacy-preserving HR solutions today.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button variant="hero" size="xl" className="group">
-                  Start Free Trial
+                  Start Privacy-First Trial
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Button>
                 <Button variant="outline-primary" size="xl">
-                  Schedule Demo
+                  Schedule Privacy Demo
                 </Button>
               </div>
             </CardContent>

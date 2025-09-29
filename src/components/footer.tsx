@@ -10,9 +10,10 @@ export function Footer() {
               <span className="text-white font-bold text-xs">HR</span>
             </div>
             <span className="text-lg font-bold bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">AgentForceHR</span>
+            <Badge variant="outline" className="text-xs ml-2 border-primary/30 text-primary">Privacy-First</Badge>
           </Link>
           <p className="text-sm text-muted-foreground">
-            Streamlining employee onboarding with intelligent AI agents
+            Privacy-first employee onboarding with Ocean Protocol-powered AI agents
           </p>
         </div>
         <div>
