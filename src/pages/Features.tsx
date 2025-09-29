@@ -9,25 +9,25 @@ const Features = () => {
   const features = [
     {
       icon: <Bot className="w-8 h-8" />,
-      title: "AI-Powered Agents",
-      description: "Create intelligent onboarding assistants using advanced AI technology",
+      title: "Privacy-First AI Agents",
+      description: "Create intelligent onboarding assistants that process sensitive data without exposure using Ocean Protocol",
       details: [
-        "Natural language processing for human-like conversations",
-        "Contextual understanding of employee questions",
+        "Ocean Protocol C2D enables AI processing without raw data access",
+        "Privacy-preserving contextual understanding of employee questions",
         "24/7 availability for instant support",
-        "Continuous learning from interactions"
+        "Continuous learning while maintaining data privacy"
       ],
       color: "text-blue-600"
     },
     {
       icon: <Shield className="w-8 h-8" />,
-      title: "Blockchain Security",
-      description: "Secure, transparent, and immutable record-keeping on the blockchain",
+      title: "Ocean Protocol Privacy",
+      description: "Privacy-by-design architecture ensuring sensitive HR data never leaves secure environments",
       details: [
-        "BSC immutable audit trails for compliance",
-        "Decentralized BSC data verification",
-        "Smart contract automation",
-        "Transparent BSC token transactions"
+        "Compute-to-Data technology for secure AI processing",
+        "Employee data tokenization with ERC721 NFTs",
+        "Immutable privacy audit trails on blockchain",
+        "Zero-knowledge data analysis capabilities"
       ],
       color: "text-green-600"
     },
@@ -45,25 +45,25 @@ const Features = () => {
     },
     {
       icon: <MessageSquare className="w-8 h-8" />,
-      title: "Intelligent Conversations",
-      description: "Advanced chat capabilities with context-aware responses",
+      title: "Privacy-Preserving Conversations",
+      description: "Advanced chat capabilities that maintain context while protecting employee data privacy",
       details: [
         "Multi-language support",
-        "Conversation history tracking",
+        "Privacy-protected conversation history",
         "Smart escalation to human HR",
-        "Sentiment analysis and feedback"
+        "Anonymous sentiment analysis through Ocean Protocol"
       ],
       color: "text-orange-600"
     },
     {
       icon: <FileText className="w-8 h-8" />,
-      title: "Document Management",
-      description: "Automated document processing and digital workflows",
+      title: "Private Document Processing",
+      description: "Automated document analysis through Ocean Protocol without exposing sensitive content",
       details: [
-        "Digital signature integration",
-        "Automated form completion",
-        "Document version control",
-        "Compliance tracking"
+        "Privacy-preserving document analysis via C2D",
+        "Encrypted form processing and completion",
+        "Secure document version control",
+        "Privacy-compliant audit tracking"
       ],
       color: "text-indigo-600"
     },
@@ -93,13 +93,13 @@ const Features = () => {
     },
     {
       icon: <Users className="w-8 h-8" />,
-      title: "Role-Based Access",
-      description: "Granular permissions and access control for different user types",
+      title: "Privacy-First Access Control",
+      description: "Ocean Protocol-powered granular permissions ensuring data access only through secure compute",
       details: [
-        "Admin, HR, and employee role separation",
-        "Department-specific access controls",
-        "Secure data compartmentalization",
-        "Audit trail for all actions"
+        "Role-based data tokenization and access",
+        "Department-specific privacy controls",
+        "Ocean Protocol secure data compartmentalization",
+        "Immutable privacy audit trails"
       ],
       color: "text-pink-600"
     }
@@ -122,14 +122,14 @@ const Features = () => {
           {/* Hero Section */}
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Platform{" "}
+              Privacy-First Platform{" "}
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                 Features
               </span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Discover the comprehensive features that make AgentForceHR the leading platform 
-              for AI-powered employee onboarding and HR automation.
+              Discover the comprehensive privacy-first features powered by Ocean Protocol that make AgentForceHR 
+              the leading platform for secure AI-powered employee onboarding and HR automation.
             </p>
           </div>
 
@@ -175,9 +175,9 @@ const Features = () => {
                   <h3 className="text-lg font-semibold mb-2">AI Technology</h3>
                   <ul className="text-sm text-muted-foreground space-y-1">
                     <li>Eliza OS Framework</li>
-                    <li>Google Gemini Integration</li>
+                    <li>Ocean Protocol C2D Integration</li>
                     <li>Natural Language Processing</li>
-                    <li>Machine Learning Models</li>
+                    <li>Privacy-Preserving ML Models</li>
                   </ul>
                 </div>
 
@@ -188,9 +188,9 @@ const Features = () => {
                   <h3 className="text-lg font-semibold mb-2">Blockchain</h3>
                   <ul className="text-sm text-muted-foreground space-y-1">
                     <li>Binance Smart Chain (BSC)</li>
-                    <li>Smart Contract Automation</li>
+                    <li>Ocean Protocol Data Marketplace</li>
                     <li>BEP-20 Token Standard</li>
-                    <li>BSC Immutable Record Keeping</li>
+                    <li>Privacy-First Data Tokenization</li>
                   </ul>
                 </div>
 
@@ -200,10 +200,10 @@ const Features = () => {
                   </div>
                   <h3 className="text-lg font-semibold mb-2">Security</h3>
                   <ul className="text-sm text-muted-foreground space-y-1">
-                    <li>End-to-End Encryption</li>
-                    <li>SOC 2 Type II Compliance</li>
+                    <li>Ocean Protocol C2D Privacy</li>
+                    <li>Zero-Knowledge Data Processing</li>
                     <li>GDPR Compliant</li>
-                    <li>Role-Based Access Control</li>
+                    <li>Privacy-by-Design Architecture</li>
                   </ul>
                 </div>
               </div>
@@ -272,7 +272,7 @@ const Features = () => {
                 <div className="text-3xl font-bold text-accent mb-2">24/7</div>
                 <p className="text-sm text-muted-foreground">Global Support</p>
                 <p className="text-xs text-muted-foreground mt-2">
-                  BSC-powered AI agents available globally 24/7
+                  Privacy-first AI agents powered by Ocean Protocol available globally 24/7
                 </p>
               </CardContent>
             </Card>
@@ -283,16 +283,16 @@ const Features = () => {
             <CardContent className="text-center py-12">
               <h2 className="text-3xl font-bold mb-4">Ready to Experience These Features?</h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-                See how AgentForceHR can transform your employee onboarding process with 
-                our interactive demo or start your free trial today.
+                Experience how AgentForceHR's privacy-first approach using Ocean Protocol can transform 
+                your employee onboarding while protecting sensitive data. Try our demo or start your free trial.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button variant="hero" size="xl" className="group">
-                  Start Free Trial
+                  Start Privacy-First Trial
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Button>
                 <Button variant="outline-primary" size="xl">
-                  View Demo
+                  View Privacy Demo
                 </Button>
               </div>
             </CardContent>
