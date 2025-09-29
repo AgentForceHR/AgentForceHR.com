@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Badge } from "./ui/badge";
 
 export function Footer() {
   return (
