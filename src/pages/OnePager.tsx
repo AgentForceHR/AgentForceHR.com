@@ -204,7 +204,7 @@ const OnePager = () => {
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold">
-                    Q1
+                    Q4
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-lg">Platform Launch</h3>
@@ -219,7 +219,7 @@ const OnePager = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center font-bold">
-                    Q2
+                    Q1
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-lg">Enterprise Features</h3>
@@ -234,7 +234,7 @@ const OnePager = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-full bg-accent text-accent-foreground flex items-center justify-center font-bold">
-                    Q3
+                    Q2
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-lg">AI Enhancement</h3>
@@ -249,7 +249,7 @@ const OnePager = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-full bg-purple-600 text-white flex items-center justify-center font-bold">
-                    Q4
+                    Q3
                   </div>
                   <div className="flex-1">
                     <h3 className="font-semibold text-lg">Global Expansion</h3>
