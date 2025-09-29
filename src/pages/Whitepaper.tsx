@@ -27,14 +27,14 @@ const Whitepaper = () => {
               Technical Whitepaper
             </Badge>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              AgentForceHR{" "}
+              AgentForceHR Privacy-First{" "}
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
                 Technical Whitepaper
               </span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
-              A comprehensive technical analysis of blockchain-powered AI agents for HR automation, 
-              tokenomics, market opportunity, and implementation roadmap.
+              A comprehensive technical analysis of privacy-first AI agents powered by Ocean Protocol for HR automation, 
+              including privacy architecture, tokenomics, market opportunity, and implementation roadmap.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button onClick={downloadPDF} variant="hero" size="xl" className="group">
@@ -56,19 +56,20 @@ const Whitepaper = () => {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-muted-foreground">
-                AgentForceHR represents a paradigm shift in employee onboarding technology, combining 
-                advanced artificial intelligence with blockchain security to create intelligent, 
-                scalable, and secure HR automation solutions.
+                AgentForceHR represents a paradigm shift in employee onboarding technology, creating the world's first 
+                privacy-first HR AI protocol. By combining Ocean Protocol's Compute-to-Data technology with advanced 
+                artificial intelligence and BSC blockchain efficiency, we deliver intelligent, scalable, and 
+                privacy-preserving HR automation solutions.
               </p>
               <p className="text-muted-foreground">
-                Built on Binance Smart Chain (BSC) infrastructure and powered by the HR Token (HRT) economy, 
-                our platform enables organizations to create custom AI agents that streamline onboarding 
-                processes while maintaining enterprise-grade security and compliance standards.
+                Built on Ocean Protocol's privacy infrastructure and BSC blockchain, powered by the HR Token (HRT) economy, 
+                our platform enables organizations to create custom AI agents that process sensitive employee data 
+                without exposure, ensuring privacy-by-design compliance with GDPR, HIPAA, and other regulatory frameworks.
               </p>
               <div className="grid md:grid-cols-3 gap-6 mt-8">
                 <div className="text-center p-4 bg-primary/5 rounded-lg">
                   <div className="text-2xl font-bold text-primary mb-1">$35.68B</div>
-                  <p className="text-sm text-muted-foreground">HR Software Market by 2028</p>
+                  <p className="text-sm text-muted-foreground">Privacy-Focused HR Market by 2028</p>
                 </div>
                 <div className="text-center p-4 bg-secondary/5 rounded-lg">
                   <div className="text-2xl font-bold text-secondary mb-1">15.2%</div>
@@ -95,28 +96,28 @@ const Whitepaper = () => {
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="text-center p-6 border rounded-lg">
                     <Brain className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-                    <h3 className="text-lg font-semibold mb-2">AI Layer</h3>
+                    <h3 className="text-lg font-semibold mb-2">Privacy-First AI Layer</h3>
                     <p className="text-sm text-muted-foreground mb-4">
-                      Eliza OS framework orchestrates Google Gemini AI for natural language processing
+                      Ocean Protocol C2D orchestrates privacy-preserving AI for secure natural language processing
                     </p>
                     <ul className="text-xs text-muted-foreground space-y-1">
-                      <li>• Natural language understanding</li>
-                      <li>• Context-aware responses</li>
+                      <li>• Privacy-preserving language understanding</li>
+                      <li>• Context-aware responses without data exposure</li>
                       <li>• Multi-language support</li>
-                      <li>• Continuous learning</li>
+                      <li>• Federated learning for privacy</li>
                     </ul>
                   </div>
                   <div className="text-center p-6 border rounded-lg">
                     <Shield className="w-12 h-12 text-green-600 mx-auto mb-4" />
-                    <h3 className="text-lg font-semibold mb-2">Blockchain Layer</h3>
+                    <h3 className="text-lg font-semibold mb-2">Privacy & Blockchain Layer</h3>
                     <p className="text-sm text-muted-foreground mb-4">
-                      BSC provides secure, fast, and cost-effective transaction processing
+                      Ocean Protocol provides privacy-first data processing while BSC handles fast, cost-effective transactions
                     </p>
                     <ul className="text-xs text-muted-foreground space-y-1">
-                      <li>• BSC smart contracts</li>
-                      <li>• Immutable record keeping</li>
+                      <li>• Ocean Protocol C2D privacy</li>
+                      <li>• Data tokenization (ERC721/ERC20)</li>
                       <li>• Ultra-low transaction fees</li>
-                      <li>• High throughput processing</li>
+                      <li>• Privacy-preserving compute jobs</li>
                     </ul>
                   </div>
                   <div className="text-center p-6 border rounded-lg">
@@ -143,9 +144,9 @@ const Whitepaper = () => {
                       <h4 className="font-medium">Frontend Components</h4>
                       <ul className="text-sm text-muted-foreground space-y-2">
                         <li>• React-based admin dashboard</li>
-                        <li>• Employee portal interface</li>
+                        <li>• Privacy-protected employee portal</li>
                         <li>• Real-time chat components</li>
-                        <li>• Analytics and reporting tools</li>
+                        <li>• Privacy-preserving analytics tools</li>
                         <li>• Mobile-responsive design</li>
                       </ul>
                     </div>
@@ -153,11 +154,11 @@ const Whitepaper = () => {
                       <h4 className="font-medium">Backend Services</h4>
                       <ul className="text-sm text-muted-foreground space-y-2">
                         <li>• Node.js API server</li>
-                        <li>• MongoDB data storage</li>
+                        <li>• Privacy-protected data storage</li>
                         <li>• BSC blockchain integration</li>
-                        <li>• AI orchestration service</li>
+                        <li>• Ocean Protocol C2D orchestration</li>
                         <li>• Authentication & authorization</li>
-                        <li>• Ocean Protocol C2D integration</li>
+                        <li>• Privacy-first data tokenization</li>
                       </ul>
                     </div>
                   </div>
@@ -168,26 +169,26 @@ const Whitepaper = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-4">Ocean Protocol Integration</h3>
                   <p className="text-muted-foreground mb-6">
-                    AgentForceHR leverages Ocean Protocol's Compute-to-Data (C2D) technology to process sensitive HR data while maintaining strict privacy controls. This integration enables AI agents to analyze encrypted employee records, performance reviews, and confidential documents without exposing raw data.
+                    AgentForceHR creates a privacy-first HR AI protocol using Ocean Protocol's Compute-to-Data (C2D) technology. This revolutionary approach enables AI agents to analyze encrypted employee records, performance reviews, and confidential documents without ever accessing raw data, establishing a new standard for privacy-preserving HR automation.
                   </p>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="space-y-4">
-                      <h4 className="font-medium">Privacy-Preserving Workflow</h4>
+                      <h4 className="font-medium">Privacy-First Architecture</h4>
                       <ul className="text-sm text-muted-foreground space-y-2">
-                        <li>• Secure data tokenization (ERC721/ERC20)</li>
-                        <li>• Encrypted file processing via C2D</li>
+                        <li>• Employee data tokenization (ERC721/ERC20)</li>
+                        <li>• Zero-exposure file processing via C2D</li>
                         <li>• Homomorphic encryption for computations</li>
-                        <li>• Anonymized result delivery</li>
-                        <li>• Blockchain audit trails</li>
+                        <li>• Privacy-protected result delivery</li>
+                        <li>• Immutable privacy audit trails</li>
                       </ul>
                     </div>
                     <div className="space-y-4">
                       <h4 className="font-medium">Compliance Benefits</h4>
                       <ul className="text-sm text-muted-foreground space-y-2">
-                        <li>• GDPR compliant data processing</li>
+                        <li>• GDPR Article 25 privacy-by-design compliance</li>
                         <li>• HIPAA-ready medical record handling</li>
-                        <li>• Immutable access logs</li>
-                        <li>• Granular permission controls</li>
+                        <li>• Immutable privacy access logs</li>
+                        <li>• Granular data tokenization controls</li>
                         <li>• Zero-knowledge data analysis</li>
                       </ul>
                     </div>
@@ -207,17 +208,17 @@ const Whitepaper = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-4">Market Opportunity</h3>
                   <p className="text-muted-foreground mb-6">
-                    The global HR software market is experiencing unprecedented growth, driven by digital 
-                    transformation initiatives and the need for efficient remote onboarding solutions.
+                    The global HR software market is experiencing unprecedented growth, driven by digital transformation 
+                    initiatives and increasing demand for privacy-compliant remote onboarding solutions that protect sensitive employee data.
                   </p>
                   <div className="grid md:grid-cols-2 gap-8">
                     <div className="space-y-4">
                       <h4 className="font-medium">Market Size & Growth</h4>
                       <ul className="text-sm text-muted-foreground space-y-2">
-                        <li>• Current market size: $24.04B (2024)</li>
-                        <li>• Projected market size: $35.68B (2028)</li>
+                        <li>• Privacy-focused HR software: $24.04B (2024)</li>
+                        <li>• Projected privacy-compliant market: $35.68B (2028)</li>
                         <li>• Compound Annual Growth Rate: 15.2%</li>
-                        <li>• AI-powered HR solutions leading growth</li>
+                        <li>• Privacy-first AI HR solutions leading growth</li>
                       </ul>
                     </div>
                     <div className="space-y-4">
@@ -240,34 +241,34 @@ const Whitepaper = () => {
                     <div className="p-4 border rounded-lg">
                       <h4 className="font-medium mb-2">Traditional HR Platforms</h4>
                       <p className="text-sm text-muted-foreground mb-3">
-                        Workday, SAP SuccessFactors, BambooHR
+                        Traditional platforms requiring data uploads
                       </p>
                       <ul className="text-xs text-muted-foreground space-y-1">
                         <li>• Limited AI capabilities</li>
-                        <li>• High implementation costs</li>
-                        <li>• Complex user interfaces</li>
+                        <li>• Data privacy risks</li>
+                        <li>• No privacy-by-design architecture</li>
                       </ul>
                     </div>
                     <div className="p-4 border rounded-lg">
                       <h4 className="font-medium mb-2">AI-First Solutions</h4>
                       <p className="text-sm text-muted-foreground mb-3">
-                        Emerging AI-powered HR tools
+                        AI tools without privacy protection
                       </p>
                       <ul className="text-xs text-muted-foreground space-y-1">
-                        <li>• Limited blockchain integration</li>
+                        <li>• No privacy-preserving technology</li>
                         <li>• Subscription-based pricing</li>
-                        <li>• Generic AI models</li>
+                        <li>• Data exposure risks</li>
                       </ul>
                     </div>
                     <div className="p-4 border rounded-lg bg-primary/5">
                       <h4 className="font-medium mb-2 text-primary">AgentForceHR</h4>
                       <p className="text-sm text-muted-foreground mb-3">
-                        Blockchain-powered AI agents
+                        Privacy-first AI agents with Ocean Protocol
                       </p>
                       <ul className="text-xs text-muted-foreground space-y-1">
-                        <li>• BSC blockchain security</li>
+                        <li>• Ocean Protocol privacy-by-design</li>
                         <li>• Pay-per-use token model</li>
-                        <li>• Customizable AI agents</li>
+                        <li>• Zero-exposure AI processing</li>
                       </ul>
                     </div>
                   </div>
@@ -384,25 +385,25 @@ const Whitepaper = () => {
                     <div className="space-y-4">
                       <h4 className="font-medium">Eliza OS Framework</h4>
                       <p className="text-sm text-muted-foreground mb-3">
-                        Built on a16z's Eliza OS, providing robust orchestration for AI agent creation and management.
+                        Built on a16z's Eliza OS with Ocean Protocol integration, providing privacy-first orchestration for AI agent creation and secure data management.
                       </p>
                       <ul className="text-sm text-muted-foreground space-y-1">
-                        <li>• Agent lifecycle management</li>
-                        <li>• Context preservation</li>
+                        <li>• Privacy-preserving agent lifecycle</li>
+                        <li>• Secure context preservation via C2D</li>
                         <li>• Multi-modal interactions</li>
-                        <li>• Plugin architecture</li>
+                        <li>• Ocean Protocol plugin architecture</li>
                       </ul>
                     </div>
                     <div className="space-y-4">
                       <h4 className="font-medium">Google Gemini Integration</h4>
                       <p className="text-sm text-muted-foreground mb-3">
-                        Advanced language model providing human-like conversations and intelligent responses.
+                        Advanced language model integrated with Ocean Protocol for privacy-preserving conversations and intelligent responses.
                       </p>
                       <ul className="text-sm text-muted-foreground space-y-1">
-                        <li>• Natural language processing</li>
-                        <li>• Contextual understanding</li>
+                        <li>• Privacy-preserving language processing</li>
+                        <li>• Secure contextual understanding</li>
                         <li>• Multi-turn conversations</li>
-                        <li>• Domain-specific training</li>
+                        <li>• Privacy-protected domain training</li>
                       </ul>
                     </div>
                   </div>
@@ -414,23 +415,23 @@ const Whitepaper = () => {
                   <h3 className="text-xl font-semibold mb-4">Blockchain Infrastructure</h3>
                   <div className="grid md:grid-cols-2 gap-6">
                     <div className="space-y-4">
-                      <h4 className="font-medium">BSC Network Benefits</h4>
+                      <h4 className="font-medium">Ocean Protocol Privacy Benefits</h4>
                       <ul className="text-sm text-muted-foreground space-y-2">
-                        <li>• High throughput (300+ TPS)</li>
-                        <li>• Low transaction costs (~$0.01)</li>
-                        <li>• EVM compatibility</li>
-                        <li>• Mature ecosystem</li>
-                        <li>• Strong security track record</li>
+                        <li>• Zero-knowledge data processing</li>
+                        <li>• Privacy-by-design architecture</li>
+                        <li>• GDPR Article 25 compliance</li>
+                        <li>• Secure multi-party computation</li>
+                        <li>• Immutable privacy audit trails</li>
                       </ul>
                     </div>
                     <div className="space-y-4">
                       <h4 className="font-medium">Smart Contract Functions</h4>
                       <ul className="text-sm text-muted-foreground space-y-2">
-                        <li>• Agent registration and metadata</li>
+                        <li>• Privacy-preserving agent registration</li>
                         <li>• Token payment processing</li>
-                        <li>• Access control management</li>
-                        <li>• Audit trail maintenance</li>
-                        <li>• Governance voting mechanisms</li>
+                        <li>• Data tokenization access control</li>
+                        <li>• Privacy audit trail maintenance</li>
+                        <li>• Privacy-compliant governance voting</li>
                       </ul>
                     </div>
                   </div>
@@ -491,9 +492,9 @@ const Whitepaper = () => {
                     <div className="space-y-4">
                       <h4 className="font-medium">Growth Drivers</h4>
                       <ul className="text-sm text-muted-foreground space-y-2">
-                        <li>• Increasing remote work adoption</li>
+                        <li>• Privacy regulation compliance demands</li>
                         <li>• AI technology mainstream acceptance</li>
-                        <li>• Blockchain infrastructure maturity</li>
+                        <li>• Ocean Protocol ecosystem growth</li>
                         <li>• Enterprise digital transformation</li>
                       </ul>
                     </div>
@@ -516,17 +517,17 @@ const Whitepaper = () => {
                     <div className="p-4 border-l-4 border-l-orange-500 bg-orange-50/50 dark:bg-orange-950/20">
                       <h4 className="font-medium">AI Model Dependencies</h4>
                       <p className="text-sm text-muted-foreground mt-1">
-                        <strong>Risk:</strong> Reliance on third-party AI services
+                        <strong>Risk:</strong> Ocean Protocol network dependencies
                         <br />
-                        <strong>Mitigation:</strong> Multi-provider strategy and fallback systems
+                        <strong>Mitigation:</strong> Multi-node deployment and privacy-preserving fallback systems
                       </p>
                     </div>
                     <div className="p-4 border-l-4 border-l-blue-500 bg-blue-50/50 dark:bg-blue-950/20">
                       <h4 className="font-medium">Blockchain Scalability</h4>
                       <p className="text-sm text-muted-foreground mt-1">
-                        <strong>Risk:</strong> Network congestion affecting performance
+                        <strong>Risk:</strong> Privacy compute network congestion
                         <br />
-                        <strong>Mitigation:</strong> BSC's high throughput and layer-2 solutions
+                        <strong>Mitigation:</strong> Distributed Ocean Protocol nodes and BSC efficiency
                       </p>
                     </div>
                   </div>
@@ -537,17 +538,17 @@ const Whitepaper = () => {
                     <div className="p-4 border-l-4 border-l-red-500 bg-red-50/50 dark:bg-red-950/20">
                       <h4 className="font-medium">Competitive Pressure</h4>
                       <p className="text-sm text-muted-foreground mt-1">
-                        <strong>Risk:</strong> Large incumbents entering the market
+                        <strong>Risk:</strong> Large incumbents adopting privacy-first approaches
                         <br />
-                        <strong>Mitigation:</strong> First-mover advantage and patent protection
+                        <strong>Mitigation:</strong> First-mover advantage in Ocean Protocol HR integration
                       </p>
                     </div>
                     <div className="p-4 border-l-4 border-l-purple-500 bg-purple-50/50 dark:bg-purple-950/20">
                       <h4 className="font-medium">Regulatory Changes</h4>
                       <p className="text-sm text-muted-foreground mt-1">
-                        <strong>Risk:</strong> Evolving blockchain and AI regulations
+                        <strong>Risk:</strong> Evolving privacy and AI regulations
                         <br />
-                        <strong>Mitigation:</strong> Proactive compliance and legal monitoring
+                        <strong>Mitigation:</strong> Privacy-by-design architecture exceeds current regulations
                       </p>
                     </div>
                   </div>
@@ -574,8 +575,8 @@ const Whitepaper = () => {
                         <h4 className="font-semibold">Cristian Lantadilla</h4>
                         <p className="text-sm text-primary mb-1">CEO & Co-Founder</p>
                         <p className="text-xs text-muted-foreground">
-                          10+ years in blockchain and AI technology. Previously led engineering teams 
-                          at Fortune 500 companies, specializing in enterprise software solutions.
+                          10+ years in blockchain and privacy-preserving AI technology. Expert in Ocean Protocol 
+                          integration and privacy-by-design enterprise software solutions.
                         </p>
                       </div>
                     </div>
@@ -587,8 +588,8 @@ const Whitepaper = () => {
                         <h4 className="font-semibold">Renato Ortega</h4>
                         <p className="text-sm text-secondary mb-1">Co-Founder & HR Specialist</p>
                         <p className="text-xs text-muted-foreground">
-                          8+ years in HR and talent development. Expert in employee experience design 
-                          and organizational psychology with proven track record in scaling HR operations.
+                          8+ years in HR and talent development with focus on privacy-compliant employee experience design. 
+                          Expert in data protection regulations and privacy-first organizational psychology.
                         </p>
                       </div>
                     </div>
@@ -598,9 +599,9 @@ const Whitepaper = () => {
                   <h3 className="text-xl font-semibold">Advisory Board</h3>
                   <div className="space-y-4">
                     <div className="p-4 border rounded-lg">
-                      <h4 className="font-medium">Blockchain Technology</h4>
+                      <h4 className="font-medium">Privacy Technology</h4>
                       <p className="text-sm text-muted-foreground">
-                        Industry experts in BSC development and DeFi protocols
+                        Industry experts in Ocean Protocol and privacy-preserving computation
                       </p>
                     </div>
                     <div className="p-4 border rounded-lg">
@@ -635,8 +636,8 @@ const Whitepaper = () => {
                       <li className="flex items-start gap-3">
                         <div className="w-5 h-5 rounded-full border-2 border-primary mt-0.5 shrink-0" />
                         <div>
-                          <p className="font-medium">Core Platform Launch</p>
-                          <p className="text-sm text-muted-foreground">MVP with basic agent creation and BSC integration</p>
+                          <p className="font-medium">Privacy-First Platform Launch</p>
+                          <p className="text-sm text-muted-foreground">MVP with Ocean Protocol C2D integration and BSC token economy</p>
                         </div>
                       </li>
                       <li className="flex items-start gap-3">
@@ -649,8 +650,8 @@ const Whitepaper = () => {
                       <li className="flex items-start gap-3">
                         <div className="w-5 h-5 rounded-full border-2 border-primary mt-0.5 shrink-0" />
                         <div>
-                          <p className="font-medium">Beta Customer Onboarding</p>
-                          <p className="text-sm text-muted-foreground">First 100 enterprise customers</p>
+                          <p className="font-medium">Privacy-Conscious Customer Onboarding</p>
+                          <p className="text-sm text-muted-foreground">First 100 privacy-focused enterprise customers</p>
                         </div>
                       </li>
                     </ul>
@@ -661,8 +662,8 @@ const Whitepaper = () => {
                       <li className="flex items-start gap-3">
                         <div className="w-5 h-5 rounded-full border-2 border-primary mt-0.5 shrink-0" />
                         <div>
-                          <p className="font-medium">Enterprise Features</p>
-                          <p className="text-sm text-muted-foreground">Advanced analytics and HRIS integrations</p>
+                          <p className="font-medium">Privacy-Enhanced Enterprise Features</p>
+                          <p className="text-sm text-muted-foreground">Advanced privacy-preserving analytics and secure HRIS integrations</p>
                         </div>
                       </li>
                       <li className="flex items-start gap-3">
@@ -675,8 +676,8 @@ const Whitepaper = () => {
                       <li className="flex items-start gap-3">
                         <div className="w-5 h-5 rounded-full border-2 border-primary mt-0.5 shrink-0" />
                         <div>
-                          <p className="font-medium">Global Expansion</p>
-                          <p className="text-sm text-muted-foreground">Multi-region deployment and compliance</p>
+                          <p className="font-medium">Global Privacy Compliance</p>
+                          <p className="text-sm text-muted-foreground">Multi-region deployment with Ocean Protocol privacy guarantees</p>
                         </div>
                       </li>
                     </ul>
@@ -689,22 +690,22 @@ const Whitepaper = () => {
                       <li className="flex items-start gap-3">
                         <div className="w-5 h-5 rounded-full border-2 border-muted-foreground mt-0.5 shrink-0" />
                         <div>
-                          <p className="font-medium">Agent Marketplace</p>
-                          <p className="text-sm text-muted-foreground">Community-created agent templates</p>
+                          <p className="font-medium">Privacy-First Agent Marketplace</p>
+                          <p className="text-sm text-muted-foreground">Community-created privacy-preserving agent templates</p>
                         </div>
                       </li>
                       <li className="flex items-start gap-3">
                         <div className="w-5 h-5 rounded-full border-2 border-muted-foreground mt-0.5 shrink-0" />
                         <div>
-                          <p className="font-medium">DAO Governance</p>
-                          <p className="text-sm text-muted-foreground">Community-driven platform development</p>
+                          <p className="font-medium">Privacy-Focused DAO Governance</p>
+                          <p className="text-sm text-muted-foreground">Community-driven privacy-first platform development</p>
                         </div>
                       </li>
                       <li className="flex items-start gap-3">
                         <div className="w-5 h-5 rounded-full border-2 border-muted-foreground mt-0.5 shrink-0" />
                         <div>
-                          <p className="font-medium">Cross-chain Integration</p>
-                          <p className="text-sm text-muted-foreground">Multi-blockchain support and interoperability</p>
+                          <p className="font-medium">Cross-chain Privacy Integration</p>
+                          <p className="text-sm text-muted-foreground">Multi-blockchain privacy protocols and Ocean Protocol interoperability</p>
                         </div>
                       </li>
                     </ul>
@@ -715,15 +716,15 @@ const Whitepaper = () => {
                       <li className="flex items-start gap-3">
                         <div className="w-5 h-5 rounded-full border-2 border-muted-foreground mt-0.5 shrink-0" />
                         <div>
-                          <p className="font-medium">AI Model Training</p>
-                          <p className="text-sm text-muted-foreground">Custom AI models for specific industries</p>
+                          <p className="font-medium">Privacy-Preserving AI Training</p>
+                          <p className="text-sm text-muted-foreground">Federated learning models for industry-specific privacy requirements</p>
                         </div>
                       </li>
                       <li className="flex items-start gap-3">
                         <div className="w-5 h-5 rounded-full border-2 border-muted-foreground mt-0.5 shrink-0" />
                         <div>
-                          <p className="font-medium">Global Partnerships</p>
-                          <p className="text-sm text-muted-foreground">Strategic alliances with major HR vendors</p>
+                          <p className="font-medium">Privacy-First Partnerships</p>
+                          <p className="text-sm text-muted-foreground">Strategic alliances with privacy-conscious HR vendors and Ocean Protocol ecosystem</p>
                         </div>
                       </li>
                       <li className="flex items-start gap-3">
@@ -750,12 +751,12 @@ const Whitepaper = () => {
                 <div className="grid md:grid-cols-3 gap-6">
                   <div className="text-center p-6 border rounded-lg">
                     <Lock className="w-8 h-8 text-blue-600 mx-auto mb-3" />
-                    <h3 className="font-semibold mb-2">Data Protection</h3>
+                    <h3 className="font-semibold mb-2">Privacy-by-Design</h3>
                     <ul className="text-sm text-muted-foreground space-y-1">
-                      <li>• GDPR compliance</li>
-                      <li>• CCPA adherence</li>
-                      <li>• SOC 2 Type II</li>
-                      <li>• ISO 27001</li>
+                      <li>• Ocean Protocol C2D privacy</li>
+                      <li>• GDPR Article 25 compliance</li>
+                      <li>• Zero-knowledge processing</li>
+                      <li>• Privacy audit trails</li>
                     </ul>
                   </div>
                   <div className="text-center p-6 border rounded-lg">
@@ -788,13 +789,14 @@ const Whitepaper = () => {
             <CardContent className="text-center py-12">
               <h2 className="text-3xl font-bold mb-4">The Future of HR is Here</h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-                AgentForceHR combines cutting-edge AI technology with BSC blockchain security to create 
-                the next generation of HR automation tools. Join us in revolutionizing employee onboarding.
+                AgentForceHR creates the world's first privacy-first HR AI protocol using Ocean Protocol's revolutionary 
+                Compute-to-Data technology. Join us in establishing a new standard for privacy-preserving HR automation 
+                that protects employee data while delivering intelligent insights.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button onClick={downloadPDF} variant="hero" size="xl" className="group">
                   <Download className="w-5 h-5 mr-2" />
-                  Download Full Whitepaper
+                  Download Privacy-First Whitepaper
                   <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </Button>
                 <Button variant="outline-primary" size="xl">

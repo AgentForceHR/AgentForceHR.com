@@ -31,8 +31,8 @@ const About = () => {
               </span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              We're revolutionizing employee onboarding with blockchain-powered AI agents that make 
-              the first day experience seamless, engaging, and efficient for both HR teams and new hires.
+              We're revolutionizing employee onboarding with privacy-first AI agents powered by Ocean Protocol that make 
+              the first day experience seamless, engaging, and efficient while ensuring complete data privacy and regulatory compliance.
             </p>
           </div>
 
@@ -47,9 +47,9 @@ const About = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  To transform the employee onboarding experience by leveraging cutting-edge AI technology 
-                  and blockchain security, making it more efficient, personalized, and engaging for 
-                  organizations worldwide.
+                  To transform the employee onboarding experience by creating the world's first privacy-first HR AI protocol 
+                  using Ocean Protocol's Compute-to-Data technology, making it more efficient, personalized, and secure for 
+                  privacy-conscious organizations worldwide.
                 </p>
               </CardContent>
             </Card>
@@ -63,9 +63,9 @@ const About = () => {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  To become the global standard for AI-powered HR solutions, where every new employee 
-                  receives a personalized, intelligent onboarding experience that sets them up for 
-                  long-term success.
+                  To become the global standard for privacy-first AI-powered HR solutions, where every new employee 
+                  receives a personalized, intelligent onboarding experience that protects their data privacy while 
+                  setting them up for long-term success.
                 </p>
               </CardContent>
             </Card>
@@ -79,21 +79,20 @@ const About = () => {
             </CardHeader>
             <CardContent className="space-y-4">
               <p className="text-muted-foreground">
-                Founded in 2024, AgentForceHR emerged from the recognition that employee onboarding 
-                was one of the most critical yet underserved areas in HR technology. Our founding team, 
-                with decades of combined experience in HR, AI, and blockchain technology, saw an 
-                opportunity to create something truly transformative.
+                Founded in 2024, AgentForceHR emerged from the recognition that employee onboarding required a 
+                privacy-first approach to handle sensitive HR data responsibly. Our founding team, with decades of 
+                combined experience in HR, privacy-preserving AI, and Ocean Protocol technology, saw an opportunity 
+                to create the world's first privacy-by-design HR automation platform.
               </p>
               <p className="text-muted-foreground">
-                We witnessed firsthand how traditional onboarding processes were often fragmented, 
-                time-consuming, and inconsistent. New employees would struggle to find information, 
-                HR teams would be overwhelmed with repetitive questions, and companies would lose 
-                valuable talent due to poor first impressions.
+                We witnessed firsthand how traditional onboarding processes not only were fragmented and time-consuming, 
+                but also exposed sensitive employee data to privacy risks. Organizations needed AI-powered solutions 
+                that could process confidential HR information without compromising employee privacy or regulatory compliance.
               </p>
               <p className="text-muted-foreground">
-                By combining the power of advanced AI with the security and transparency of blockchain 
-                technology, we created a platform that not only solves these problems but reimagines 
-                what employee onboarding can be in the digital age.
+                By combining Ocean Protocol's privacy-preserving Compute-to-Data technology with advanced AI and BSC 
+                blockchain efficiency, we created a platform that not only solves operational problems but establishes 
+                a new standard for privacy-first HR automation in the digital age.
               </p>
             </CardContent>
           </Card>
@@ -111,8 +110,8 @@ const About = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    Every decision we make prioritizes the employee experience, ensuring new hires 
-                    feel welcomed, supported, and empowered from day one.
+                    Every decision we make prioritizes employee privacy and experience, ensuring new hires 
+                    feel welcomed, supported, and empowered while their sensitive data remains completely protected.
                   </p>
                 </CardContent>
               </Card>
@@ -126,8 +125,8 @@ const About = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    We believe that trust is earned through transparency and security. Our blockchain 
-                    infrastructure ensures data integrity and provides audit trails.
+                    We believe that trust is earned through privacy-by-design architecture. Our Ocean Protocol 
+                    integration ensures data never leaves secure environments while providing transparent audit trails.
                   </p>
                 </CardContent>
               </Card>
@@ -141,8 +140,8 @@ const About = () => {
                 </CardHeader>
                 <CardContent>
                   <p className="text-muted-foreground">
-                    We continuously push the boundaries of what's possible in HR technology, 
-                    staying ahead of industry trends and emerging technologies.
+                    We continuously push the boundaries of privacy-preserving HR technology, pioneering 
+                    Ocean Protocol integration and establishing new standards for data protection in AI.
                   </p>
                 </CardContent>
               </Card>
@@ -166,8 +165,8 @@ const About = () => {
                   <h3 className="text-lg font-semibold mb-2">Cristian Lantadilla</h3>
                   <p className="text-sm text-primary mb-2">CEO & Co-Founder</p>
                   <p className="text-sm text-muted-foreground">
-                    With 10 years of experience in blockchain and AI, Cristian is passionate about leveraging 
-                    emerging technologies to solve real-world business challenges and create meaningful workplace improvements.
+                    With 10 years of experience in blockchain and privacy-preserving AI, Cristian is passionate about leveraging 
+                    Ocean Protocol and emerging privacy technologies to solve real-world HR challenges while protecting employee data.
                   </p>
                 </div>
 
@@ -178,8 +177,8 @@ const About = () => {
                   <h3 className="text-lg font-semibold mb-2">Renato Ortega</h3>
                   <p className="text-sm text-secondary mb-2">Co-Founder & HR Specialist</p>
                   <p className="text-sm text-muted-foreground">
-                    With over 8 years in HR and talent development, Renato is dedicated to creating 
-                    meaningful employee experiences and fostering inclusive workplace cultures that help people thrive.
+                    With over 8 years in HR and talent development, Renato is dedicated to creating privacy-first 
+                    employee experiences and fostering inclusive workplace cultures that protect employee data while helping people thrive.
                   </p>
                 </div>
 
@@ -192,11 +191,11 @@ const About = () => {
             <CardContent className="text-center py-12">
               <h2 className="text-3xl font-bold mb-4">Ready to Transform Your HR Process?</h2>
               <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Join the hundreds of companies already using AgentForceHR to create better 
-                onboarding experiences and improve employee satisfaction.
+                Join privacy-conscious companies using AgentForceHR's Ocean Protocol-powered platform to create 
+                secure onboarding experiences that protect employee data while improving satisfaction.
               </p>
               <Button variant="hero" size="xl" className="group">
-                Get Started Today
+                Start Privacy-First Today
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
             </CardContent>
