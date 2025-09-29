@@ -37,7 +37,7 @@ const Index = () => {
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground">
-                Create secure blockchain-powered AI assistants that streamline onboarding and provide 24/7 support for new employees. Pay with HR tokens on BSC to build and deploy your custom agents.
+                Create privacy-preserving AI assistants powered by Ocean Protocol that streamline onboarding while protecting sensitive employee data. Pay with HR tokens on BSC to build secure, compliant agents.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
                 <Button variant="hero" size="xl" className="group">

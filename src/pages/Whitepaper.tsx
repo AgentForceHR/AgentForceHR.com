@@ -157,6 +157,38 @@ const Whitepaper = () => {
                         <li>• BSC blockchain integration</li>
                         <li>• AI orchestration service</li>
                         <li>• Authentication & authorization</li>
+                        <li>• Ocean Protocol C2D integration</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <Separator />
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-4">Ocean Protocol Integration</h3>
+                  <p className="text-muted-foreground mb-6">
+                    AgentForceHR leverages Ocean Protocol's Compute-to-Data (C2D) technology to process sensitive HR data while maintaining strict privacy controls. This integration enables AI agents to analyze encrypted employee records, performance reviews, and confidential documents without exposing raw data.
+                  </p>
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div className="space-y-4">
+                      <h4 className="font-medium">Privacy-Preserving Workflow</h4>
+                      <ul className="text-sm text-muted-foreground space-y-2">
+                        <li>• Secure data tokenization (ERC721/ERC20)</li>
+                        <li>• Encrypted file processing via C2D</li>
+                        <li>• Homomorphic encryption for computations</li>
+                        <li>• Anonymized result delivery</li>
+                        <li>• Blockchain audit trails</li>
+                      </ul>
+                    </div>
+                    <div className="space-y-4">
+                      <h4 className="font-medium">Compliance Benefits</h4>
+                      <ul className="text-sm text-muted-foreground space-y-2">
+                        <li>• GDPR compliant data processing</li>
+                        <li>• HIPAA-ready medical record handling</li>
+                        <li>• Immutable access logs</li>
+                        <li>• Granular permission controls</li>
+                        <li>• Zero-knowledge data analysis</li>
                       </ul>
                     </div>
                   </div>
