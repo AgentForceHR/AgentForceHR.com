@@ -274,7 +274,7 @@ const HRToken = () => {
               <div className="space-y-8">
                 <div className="flex items-start gap-4">
                   <div className="w-16 h-16 rounded-full bg-primary text-primary-foreground flex items-center justify-center font-bold">
-                    Q1 25
+                    Q4 25
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg font-semibold mb-2">Token Launch & Platform MVP</h3>
@@ -292,7 +292,7 @@ const HRToken = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="w-16 h-16 rounded-full bg-secondary text-secondary-foreground flex items-center justify-center font-bold">
-                    Q2 25
+                    Q1 26
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg font-semibold mb-2">Enterprise Features & Staking</h3>
@@ -310,7 +310,7 @@ const HRToken = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="w-16 h-16 rounded-full bg-accent text-accent-foreground flex items-center justify-center font-bold">
-                    Q3 25
+                    Q2 26
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg font-semibold mb-2">Ecosystem Expansion</h3>
@@ -328,7 +328,7 @@ const HRToken = () => {
 
                 <div className="flex items-start gap-4">
                   <div className="w-16 h-16 rounded-full bg-purple-600 text-white flex items-center justify-center font-bold">
-                    Q4 25
+                    Q3 26
                   </div>
                   <div className="flex-1">
                     <h3 className="text-lg font-semibold mb-2">Global Scaling & DAO</h3>
