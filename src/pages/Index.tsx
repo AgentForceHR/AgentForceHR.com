@@ -31,10 +31,8 @@ const Index = () => {
           <div className="container mx-auto grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-6 z-10">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                Privacy-First Employee Onboarding with{" "}
-                <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                  Ocean Protocol AI Agents
-                </span>
+                Privacy-First Employee Onboarding with AI Agents{" "}
+                
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground">
                 AgentForceHR creates the world's first privacy-first HR AI protocol using Ocean Protocol's Compute-to-Data technology. Our AI agents process sensitive employee data without ever accessing raw files, ensuring GDPR and HIPAA compliance while delivering intelligent onboarding automation. Pay with HR tokens on BSC to build secure, compliant agents that protect employee privacy by design.
