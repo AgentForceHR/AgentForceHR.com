@@ -729,10 +729,7 @@ const Whitepaper = () => {
                       </li>
                       <li className="flex items-start gap-3">
                         <div className="w-5 h-5 rounded-full border-2 border-muted-foreground mt-0.5 shrink-0" />
-                        <div>
-                          <p className="font-medium">IPO Preparation</p>
-                          <p className="text-sm text-muted-foreground">Public market readiness and expansion capital</p>
-                        </div>
+                        
                       </li>
                     </ul>
                   </div>
